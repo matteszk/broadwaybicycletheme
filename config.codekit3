@@ -15,44 +15,112 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.tmp\/scripts\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/.tmp\/scripts\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff",
+		"oF": 0
 		},
-	"\/.tmp\/styles\/font.css": {
-		"aP": 1,
+	"\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2",
+		"oF": 0
+		},
+	"\/app\/images\/shop1.png": {
+		"ft": 32768,
+		"iS": 658083,
+		"oA": 0,
+		"oAP": "\/app\/images\/shop1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/shop2.png": {
+		"ft": 32768,
+		"iS": 658134,
+		"oA": 0,
+		"oAP": "\/app\/images\/shop2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/shop3.png": {
+		"ft": 32768,
+		"iS": 631994,
+		"oA": 0,
+		"oAP": "\/app\/images\/shop3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/index.html",
+		"oF": 0
+		},
+	"\/app\/partials\/about_us.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/partials\/about_us.html",
+		"oF": 0
+		},
+	"\/app\/partials\/blog_post_1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/partials\/blog_post_1.html",
+		"oF": 0
+		},
+	"\/app\/partials\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/partials\/footer.html",
+		"oF": 0
+		},
+	"\/app\/partials\/hours.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/partials\/hours.html",
+		"oF": 0
+		},
+	"\/app\/partials\/svg_logo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/partials\/svg_logo.html",
+		"oF": 0
+		},
+	"\/app\/styles\/font.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/.tmp\/styles\/font-min.css",
+		"oAP": "\/app\/styles\/font.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"\/.tmp\/styles\/main.css": {
-		"aP": 1,
+	"\/app\/styles\/main.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/.tmp\/styles\/main-min.css",
+		"oAP": "\/app\/styles\/main.css",
 		"oF": 0,
-		"oS": 3
-		},
-	"\/.tmp\/styles\/reset.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/.tmp\/styles\/reset-min.css",
-		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
 	"\/bower.json": {
 		"ft": 524288,
@@ -539,6 +607,15 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -722,6 +799,12 @@
 		"oAP": "\/ref\/MICA + Globe - Globe at MICA.webloc",
 		"oF": 0
 		},
+	"\/ref\/New City Microcreamery.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/New City Microcreamery.webloc",
+		"oF": 0
+		},
 	"\/ref\/palette (1).pdf": {
 		"ft": 8192,
 		"oA": 2,
@@ -782,160 +865,6 @@
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
-	"\/src-preflex\/about-us.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/about-us.html",
-		"oF": 0
-		},
-	"\/src-preflex\/blog.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/blog.html",
-		"oF": 0
-		},
-	"\/src-preflex\/classes.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/classes.html",
-		"oF": 0
-		},
-	"\/src-preflex\/index.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/index.html",
-		"oF": 0
-		},
-	"\/src-preflex\/index2.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/index2.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/about_us.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/about_us.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/blog_post_1.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/blog_post_1.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/blog_post_2.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/blog_post_2.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/footer.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/footer.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/head.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/head.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/hours.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/hours.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/main-nav.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/main-nav.html",
-		"oF": 0
-		},
-	"\/src-preflex\/partials\/svg_logo.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src-preflex\/partials\/svg_logo.html",
-		"oF": 0
-		},
-	"\/src-preflex\/sales.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/sales.html",
-		"oF": 0
-		},
-	"\/src-preflex\/scripts\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src-preflex\/scripts\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/src-preflex\/scss\/flexboxgrid.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/src-preflex\/scss\/flexboxgrid.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/src-preflex\/scss\/font.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src-preflex\/scss\/font.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src-preflex\/scss\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/src-preflex\/scss\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src-preflex\/scss\/reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src-preflex\/scss\/reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src-preflex\/services.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/services.html",
-		"oF": 0
-		},
-	"\/src-preflex\/stand-rental.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src-preflex\/stand-rental.html",
-		"oF": 0
-		},
 	"\/src\/about-us.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -959,6 +888,12 @@
 		"oA": 0,
 		"oAP": "\/dist\/index.html",
 		"oF": 2
+		},
+	"\/src\/index2.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/src\/index2.html",
+		"oF": 0
 		},
 	"\/src\/partials\/about_us.kit": {
 		"ft": 2048,
@@ -1023,6 +958,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/src\/scss\/flexboxgrid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/scss\/flexboxgrid.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/src\/scss\/font.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1081,7 +1026,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 520097434,
-	"displayValue": "broadway_bicycle",
+	"displayValue": "broadwaybicycletheme",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-maroney"
 	},
