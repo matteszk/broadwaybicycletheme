@@ -15,113 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff",
-		"oF": 0
-		},
-	"\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2",
-		"oF": 0
-		},
-	"\/app\/images\/shop1.png": {
-		"ft": 32768,
-		"iS": 658083,
-		"oA": 0,
-		"oAP": "\/app\/images\/shop1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/shop2.png": {
-		"ft": 32768,
-		"iS": 658134,
-		"oA": 0,
-		"oAP": "\/app\/images\/shop2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/images\/shop3.png": {
-		"ft": 32768,
-		"iS": 631994,
-		"oA": 0,
-		"oAP": "\/app\/images\/shop3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/app\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/index.html",
-		"oF": 0
-		},
-	"\/app\/partials\/about_us.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/partials\/about_us.html",
-		"oF": 0
-		},
-	"\/app\/partials\/blog_post_1.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/partials\/blog_post_1.html",
-		"oF": 0
-		},
-	"\/app\/partials\/footer.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/partials\/footer.html",
-		"oF": 0
-		},
-	"\/app\/partials\/hours.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/partials\/hours.html",
-		"oF": 0
-		},
-	"\/app\/partials\/svg_logo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app\/partials\/svg_logo.html",
-		"oF": 0
-		},
-	"\/app\/styles\/font.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/app\/styles\/font.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/app\/styles\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/app\/styles\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/dist\/about-us.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -2910,7 +2803,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "",
+	"previewPathAddition": "\/dist\/index.html",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
