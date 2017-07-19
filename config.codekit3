@@ -122,14 +122,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/dist\/about-us.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -601,47 +593,6 @@
 		"oAP": "\/dist\/styles\/main.css.map",
 		"oF": 0
 		},
-	"\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gulpfile-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/ref\/0017s4a7.jpg": {
 		"ft": 16384,
 		"iS": 73413,
@@ -858,12 +809,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/robots.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/robots.txt",
-		"oF": 0
 		},
 	"\/src\/about-us.kit": {
 		"ft": 2048,
