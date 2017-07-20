@@ -15,779 +15,520 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/dist\/about-us.html": {
+	"\/build\/about-us.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/about-us.html",
+		"oAP": "\/build\/about-us.html",
 		"oF": 0
 		},
-	"\/dist\/blog.html": {
+	"\/build\/blog.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/blog.html",
+		"oAP": "\/build\/blog.html",
 		"oF": 0
 		},
-	"\/dist\/classes.html": {
+	"\/build\/classes.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/classes.html",
+		"oAP": "\/build\/classes.html",
 		"oF": 0
 		},
-	"\/dist\/css\/flexboxgrid.min.css": {
+	"\/build\/css\/flexboxgrid.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/css\/flexboxgrid.min-min.css",
+		"oAP": "\/build\/css\/flexboxgrid.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dist\/fonts\/plaza-d-ot-ultra_35971-webfont.woff": {
+	"\/build\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/build\/fonts\/plaza-d-ot-ultra_35971-webfont.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/plaza-d-ot-ultra_35971-webfont.woff",
+		"oAP": "\/build\/fonts\/plaza-d-ot-ultra_35971-webfont.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2": {
+	"\/build\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2",
+		"oAP": "\/build\/fonts\/plaza-d-ot-ultra_35971-webfont.woff2",
 		"oF": 0
 		},
-	"\/dist\/images\/ mov-folding-bike.mov": {
+	"\/build\/hours.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/images\/ mov-folding-bike.mov",
+		"oAP": "\/build\/hours.html",
 		"oF": 0
 		},
-	"\/dist\/images\/class1.jpg": {
+	"\/build\/images\/ mov-folding-bike.mov": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/images\/ mov-folding-bike.mov",
+		"oF": 0
+		},
+	"\/build\/images\/abstract-1.jpg": {
+		"ft": 16384,
+		"iS": 18561004,
+		"oA": 0,
+		"oAP": "\/build\/images\/abstract-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/build\/images\/class1.jpg": {
 		"ft": 16384,
 		"iS": 7012654,
 		"oA": 0,
-		"oAP": "\/dist\/images\/class1.jpg",
+		"oAP": "\/build\/images\/class1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/class2.JPG": {
+	"\/build\/images\/class2.JPG": {
 		"ft": 16384,
 		"iS": 9264750,
 		"oA": 0,
-		"oAP": "\/dist\/images\/class2.jpg",
+		"oAP": "\/build\/images\/class2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/class3.JPG": {
+	"\/build\/images\/class3.JPG": {
 		"ft": 16384,
 		"iS": 3235735,
 		"oA": 0,
-		"oAP": "\/dist\/images\/class3.jpg",
+		"oAP": "\/build\/images\/class3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/class4.JPG": {
+	"\/build\/images\/class4.JPG": {
 		"ft": 16384,
 		"iS": 1413585,
 		"oA": 0,
-		"oAP": "\/dist\/images\/class4.jpg",
+		"oAP": "\/build\/images\/class4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/culture-camping1.jpg": {
+	"\/build\/images\/culture-camping1.jpg": {
 		"ft": 16384,
 		"iS": 241835,
 		"oA": 0,
-		"oAP": "\/dist\/images\/culture-camping1.jpg",
+		"oAP": "\/build\/images\/culture-camping1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/culture-camping2.jpg": {
+	"\/build\/images\/culture-camping2.jpg": {
 		"ft": 16384,
 		"iS": 241649,
 		"oA": 0,
-		"oAP": "\/dist\/images\/culture-camping2.jpg",
+		"oAP": "\/build\/images\/culture-camping2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/culture-easter.JPG": {
+	"\/build\/images\/culture-easter.JPG": {
 		"ft": 16384,
 		"iS": 2407211,
 		"oA": 0,
-		"oAP": "\/dist\/images\/culture-easter.jpg",
+		"oAP": "\/build\/images\/culture-easter.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/culture-merch.jpg": {
+	"\/build\/images\/culture-merch.jpg": {
 		"ft": 16384,
 		"iS": 93332,
 		"oA": 0,
-		"oAP": "\/dist\/images\/culture-merch.jpg",
+		"oAP": "\/build\/images\/culture-merch.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/culture-pancakes.jpg": {
+	"\/build\/images\/culture-pancakes.jpg": {
 		"ft": 16384,
 		"iS": 186215,
 		"oA": 0,
-		"oAP": "\/dist\/images\/culture-pancakes.jpg",
+		"oAP": "\/build\/images\/culture-pancakes.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/ellen bike tour.JPG": {
+	"\/build\/images\/ellen bike tour.JPG": {
 		"ft": 16384,
 		"iS": 395685,
 		"oA": 0,
-		"oAP": "\/dist\/images\/ellen bike tour.jpg",
+		"oAP": "\/build\/images\/ellen bike tour.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/fakemap.png": {
+	"\/build\/images\/fakemap.png": {
 		"ft": 32768,
 		"iS": 400026,
 		"oA": 0,
-		"oAP": "\/dist\/images\/fakemap.png",
+		"oAP": "\/build\/images\/fakemap.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/insta1.png": {
+	"\/build\/images\/insta1.png": {
 		"ft": 32768,
 		"iS": 658083,
 		"oA": 0,
-		"oAP": "\/dist\/images\/insta1.png",
+		"oAP": "\/build\/images\/insta1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/insta2.png": {
+	"\/build\/images\/insta2.png": {
 		"ft": 32768,
 		"iS": 658134,
 		"oA": 0,
-		"oAP": "\/dist\/images\/insta2.png",
+		"oAP": "\/build\/images\/insta2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/insta3.png": {
+	"\/build\/images\/insta3.png": {
 		"ft": 32768,
 		"iS": 631994,
 		"oA": 0,
-		"oAP": "\/dist\/images\/insta3.png",
+		"oAP": "\/build\/images\/insta3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-all-city.png": {
+	"\/build\/images\/logo-all-city.png": {
 		"ft": 32768,
 		"iS": 7301,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-all-city.png",
+		"oAP": "\/build\/images\/logo-all-city.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-brompton.png": {
+	"\/build\/images\/logo-brompton.png": {
 		"ft": 32768,
 		"iS": 116263,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-brompton.png",
+		"oAP": "\/build\/images\/logo-brompton.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-brooklyn-bicycle-co.png": {
+	"\/build\/images\/logo-brooklyn-bicycle-co.png": {
 		"ft": 32768,
 		"iS": 19806,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-brooklyn-bicycle-co.png",
+		"oAP": "\/build\/images\/logo-brooklyn-bicycle-co.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-marin.png": {
+	"\/build\/images\/logo-marin.png": {
 		"ft": 32768,
 		"iS": 33094,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-marin.png",
+		"oAP": "\/build\/images\/logo-marin.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-surly.png": {
+	"\/build\/images\/logo-surly.png": {
 		"ft": 32768,
 		"iS": 28415,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-surly.png",
+		"oAP": "\/build\/images\/logo-surly.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/logo-velo-orange.png": {
+	"\/build\/images\/logo-velo-orange.png": {
 		"ft": 32768,
 		"iS": 409281,
 		"oA": 0,
-		"oAP": "\/dist\/images\/logo-velo-orange.png",
+		"oAP": "\/build\/images\/logo-velo-orange.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/images\/mov-winter.mp4": {
+	"\/build\/images\/mov-winter.mp4": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/images\/mov-winter.mp4",
+		"oAP": "\/build\/images\/mov-winter.mp4",
 		"oF": 0
 		},
-	"\/dist\/images\/newbikeday-1.JPG": {
+	"\/build\/images\/newbikeday-1.JPG": {
 		"ft": 16384,
 		"iS": 3859997,
 		"oA": 0,
-		"oAP": "\/dist\/images\/newbikeday-1.jpg",
+		"oAP": "\/build\/images\/newbikeday-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/newbikeday-2.JPG": {
+	"\/build\/images\/newbikeday-2.JPG": {
 		"ft": 16384,
 		"iS": 3666502,
 		"oA": 0,
-		"oAP": "\/dist\/images\/newbikeday-2.jpg",
+		"oAP": "\/build\/images\/newbikeday-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/newbikeday-3.JPG": {
+	"\/build\/images\/newbikeday-3.JPG": {
 		"ft": 16384,
 		"iS": 5535927,
 		"oA": 0,
-		"oAP": "\/dist\/images\/newbikeday-3.jpg",
+		"oAP": "\/build\/images\/newbikeday-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/shop-front.JPG": {
+	"\/build\/images\/shop-front.JPG": {
 		"ft": 16384,
 		"iS": 3169695,
 		"oA": 0,
-		"oAP": "\/dist\/images\/shop-front.jpg",
+		"oAP": "\/build\/images\/shop-front.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/shop-pano.JPG": {
+	"\/build\/images\/shop-pano.JPG": {
 		"ft": 16384,
 		"iS": 8230905,
 		"oA": 0,
-		"oAP": "\/dist\/images\/shop-pano.jpg",
+		"oAP": "\/build\/images\/shop-pano.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/shop-pride.JPG": {
+	"\/build\/images\/shop-pride.JPG": {
 		"ft": 16384,
 		"iS": 1564920,
 		"oA": 0,
-		"oAP": "\/dist\/images\/shop-pride.jpg",
+		"oAP": "\/build\/images\/shop-pride.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/shop-saddle.JPG": {
+	"\/build\/images\/shop-saddle.JPG": {
 		"ft": 16384,
 		"iS": 2740861,
 		"oA": 0,
-		"oAP": "\/dist\/images\/shop-saddle.jpg",
+		"oAP": "\/build\/images\/shop-saddle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/shop-view-1.JPG": {
+	"\/build\/images\/shop-view-1.JPG": {
 		"ft": 16384,
 		"iS": 2112203,
 		"oA": 0,
-		"oAP": "\/dist\/images\/shop-view-1.jpg",
+		"oAP": "\/build\/images\/shop-view-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/snow1.jpg": {
+	"\/build\/images\/snow1.jpg": {
 		"ft": 16384,
 		"iS": 1134668,
 		"oA": 0,
-		"oAP": "\/dist\/images\/snow1.jpg",
+		"oAP": "\/build\/images\/snow1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/snow2.jpg": {
+	"\/build\/images\/snow2.jpg": {
 		"ft": 16384,
 		"iS": 1230210,
 		"oA": 0,
-		"oAP": "\/dist\/images\/snow2.jpg",
+		"oAP": "\/build\/images\/snow2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/temp-recyling.jpg": {
+	"\/build\/images\/temp-recyling.jpg": {
 		"ft": 16384,
 		"iS": 128364,
 		"oA": 0,
-		"oAP": "\/dist\/images\/temp-recyling.jpg",
+		"oAP": "\/build\/images\/temp-recyling.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/tools-1.jpg": {
+	"\/build\/images\/tools-1.jpg": {
 		"ft": 16384,
 		"iS": 2694392,
 		"oA": 0,
-		"oAP": "\/dist\/images\/tools-1.jpg",
+		"oAP": "\/build\/images\/tools-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/tools-2.jpg": {
+	"\/build\/images\/tools-2.jpg": {
 		"ft": 16384,
 		"iS": 2510925,
 		"oA": 0,
-		"oAP": "\/dist\/images\/tools-2.jpg",
+		"oAP": "\/build\/images\/tools-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/dist\/images\/tools-3.jpg": {
+	"\/build\/images\/tools-3.jpg": {
 		"ft": 16384,
 		"iS": 2215694,
 		"oA": 0,
-		"oAP": "\/dist\/images\/tools-3.jpg",
+		"oAP": "\/build\/images\/tools-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/dist\/images\/tools-oil1.jpg": {
+	"\/build\/images\/tools-oil1.jpg": {
 		"ft": 16384,
 		"iS": 2519519,
 		"oA": 0,
-		"oAP": "\/dist\/images\/tools-oil1.jpg",
+		"oAP": "\/build\/images\/tools-oil1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/images\/tools-oil2.JPG": {
+	"\/build\/images\/tools-oil2.JPG": {
 		"ft": 16384,
 		"iS": 2498097,
 		"oA": 0,
-		"oAP": "\/dist\/images\/tools-oil2.jpg",
+		"oAP": "\/build\/images\/tools-oil2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/index.html": {
+	"\/build\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/index.html",
+		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/dist\/sales.html": {
+	"\/build\/libs\/flexboxgrid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/libs\/flexboxgrid.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/build\/main-nav.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/sales.html",
+		"oAP": "\/build\/main-nav.html",
 		"oF": 0
 		},
-	"\/dist\/scripts\/main-min.js": {
+	"\/build\/map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/map.html",
+		"oF": 0
+		},
+	"\/build\/sales.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/sales.html",
+		"oF": 0
+		},
+	"\/build\/scripts\/main-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/scripts\/main-min-min.js",
+		"oAP": "\/build\/scripts\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/dist\/services.html": {
+	"\/build\/services.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/services.html",
+		"oAP": "\/build\/services.html",
 		"oF": 0
 		},
-	"\/dist\/stand-rental.html": {
+	"\/build\/stand-rental.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/stand-rental.html",
+		"oAP": "\/build\/stand-rental.html",
 		"oF": 0
 		},
-	"\/dist\/styles\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/styles\/main-min.css",
+	"\/build\/svg\/svg_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/svg\/svg_logo.svg",
 		"oF": 0,
-		"oS": 3
-		},
-	"\/dist\/styles\/main.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/styles\/main.css.map",
-		"oF": 0
-		},
-	"\/ref\/0017s4a7.jpg": {
-		"ft": 16384,
-		"iS": 73413,
-		"oA": 0,
-		"oAP": "\/ref\/0017s4a7.jpg",
-		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/ref\/0017y7c6.jpg": {
-		"ft": 16384,
-		"iS": 88997,
-		"oA": 0,
-		"oAP": "\/ref\/0017y7c6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/ref\/3064ab8de1ec2068e18e5d5928b0cb54.jpg": {
-		"ft": 16384,
-		"iS": 177394,
-		"oA": 0,
-		"oAP": "\/ref\/3064ab8de1ec2068e18e5d5928b0cb54.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/ref\/BB_Alt_Logo_01.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/BB_Alt_Logo_01.ai",
-		"oF": 0
-		},
-	"\/ref\/BB_Alt_Logo_02.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/BB_Alt_Logo_02.ai",
-		"oF": 0
-		},
-	"\/ref\/BB_Primary_Logo.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/BB_Primary_Logo.ai",
-		"oF": 0
-		},
-	"\/ref\/BB_Primary_Tag_01.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/BB_Primary_Tag_01.ai",
-		"oF": 0
-		},
-	"\/ref\/BB_Primary_Tag_02.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/BB_Primary_Tag_02.ai",
-		"oF": 0
-		},
-	"\/ref\/Bike Pieces.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/Bike Pieces.ai",
-		"oF": 0
-		},
-	"\/ref\/fancyBox - Touch enabled, responsive and fully customizable jQue.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/fancyBox - Touch enabled, responsive and fully customizable jQue.webloc",
-		"oF": 0
-		},
-	"\/ref\/font-comparison.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/font-comparison.ai",
-		"oF": 0
-		},
-	"\/ref\/Home - Lawrence Boone Selections.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/Home - Lawrence Boone Selections.webloc",
-		"oF": 0
-		},
-	"\/ref\/image06.png": {
-		"ft": 32768,
-		"iS": 506429,
-		"oA": 0,
-		"oAP": "\/ref\/image06.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ref\/images\/shop4.png": {
-		"ft": 32768,
-		"iS": 738784,
-		"oA": 0,
-		"oAP": "\/ref\/images\/shop4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ref\/images\/shop5.png": {
-		"ft": 32768,
-		"iS": 754425,
-		"oA": 0,
-		"oAP": "\/ref\/images\/shop5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ref\/images\/subtle_white_feathers.png": {
-		"ft": 32768,
-		"iS": 166251,
-		"oA": 0,
-		"oAP": "\/ref\/images\/subtle_white_feathers.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ref\/images\/subtle_white_feathers_@2X.png": {
-		"ft": 32768,
-		"iS": 213101,
-		"oA": 0,
-		"oAP": "\/ref\/images\/subtle_white_feathers_@2X.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/ref\/Interface Lovers | Home.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/Interface Lovers | Home.webloc",
-		"oF": 0
-		},
-	"\/ref\/Les Partisanes -- Poignée de main virile.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/Les Partisanes -- Poignée de main virile.webloc",
-		"oF": 0
-		},
-	"\/ref\/MICA + Globe - Globe at MICA.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/MICA + Globe - Globe at MICA.webloc",
-		"oF": 0
-		},
-	"\/ref\/New City Microcreamery.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/New City Microcreamery.webloc",
-		"oF": 0
-		},
-	"\/ref\/palette (1).pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/palette (1).pdf",
-		"oF": 0
-		},
-	"\/ref\/palette.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/palette.pdf",
-		"oF": 0
-		},
-	"\/ref\/project google drive.webloc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/project google drive.webloc",
-		"oF": 0
-		},
-	"\/ref\/Simple Bike Sprockets.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ref\/Simple Bike Sprockets.ai",
-		"oF": 0
-		},
-	"\/ref\/societe.jpg": {
-		"ft": 16384,
-		"iS": 25952,
-		"oA": 0,
-		"oAP": "\/ref\/societe.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/ref\/vintage-bicycle-advertising-16.jpg": {
-		"ft": 16384,
-		"iS": 173433,
-		"oA": 0,
-		"oAP": "\/ref\/vintage-bicycle-advertising-16.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/ref\/vintage-bicycle-advertising-2.jpg": {
-		"ft": 16384,
-		"iS": 188598,
-		"oA": 0,
-		"oAP": "\/ref\/vintage-bicycle-advertising-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/src\/about-us.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/about-us.html",
-		"oF": 2
-		},
-	"\/src\/blog.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/blog.html",
-		"oF": 2
-		},
-	"\/src\/classes.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/classes.html",
-		"oF": 2
-		},
-	"\/src\/index.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/index.html",
-		"oF": 2
-		},
-	"\/src\/index2.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/src\/index2.html",
-		"oF": 0
-		},
-	"\/src\/partials\/about_us.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/about_us.html",
-		"oF": 0
-		},
-	"\/src\/partials\/blog_post_1.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/blog_post_1.html",
-		"oF": 0
-		},
-	"\/src\/partials\/blog_post_2.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/blog_post_2.html",
-		"oF": 1
-		},
-	"\/src\/partials\/footer.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/footer.html",
-		"oF": 0
-		},
-	"\/src\/partials\/head.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/head.html",
-		"oF": 0
-		},
-	"\/src\/partials\/hours.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/hours.html",
-		"oF": 0
-		},
-	"\/src\/partials\/main-nav.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/main-nav.html",
-		"oF": 0
-		},
-	"\/src\/partials\/svg_logo.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/src\/partials\/svg_logo.html",
-		"oF": 0
-		},
-	"\/src\/sales.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/sales.html",
-		"oF": 2
-		},
-	"\/src\/scripts\/main.js": {
+	"\/main.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
@@ -796,15 +537,280 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/src\/scss\/flexboxgrid.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/ref\/color ideas\/palette (1).pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/color ideas\/palette (1).pdf",
+		"oF": 0
+		},
+	"\/ref\/color ideas\/palette.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/color ideas\/palette.pdf",
+		"oF": 0
+		},
+	"\/ref\/font-comparison.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/font-comparison.ai",
+		"oF": 0
+		},
+	"\/ref\/logo files\/BB_Alt_Logo_01.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/logo files\/BB_Alt_Logo_01.ai",
+		"oF": 0
+		},
+	"\/ref\/logo files\/BB_Alt_Logo_02.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/logo files\/BB_Alt_Logo_02.ai",
+		"oF": 0
+		},
+	"\/ref\/logo files\/BB_Primary_Logo.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/logo files\/BB_Primary_Logo.ai",
+		"oF": 0
+		},
+	"\/ref\/logo files\/BB_Primary_Tag_01.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/logo files\/BB_Primary_Tag_01.ai",
+		"oF": 0
+		},
+	"\/ref\/logo files\/BB_Primary_Tag_02.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/logo files\/BB_Primary_Tag_02.ai",
+		"oF": 0
+		},
+	"\/ref\/old ads\/0017s4a7.jpg": {
+		"ft": 16384,
+		"iS": 73413,
 		"oA": 0,
-		"oAP": "\/src\/scss\/flexboxgrid.min-min.css",
+		"oAP": "\/ref\/old ads\/0017s4a7.jpg",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/old ads\/0017y7c6.jpg": {
+		"ft": 16384,
+		"iS": 88997,
+		"oA": 0,
+		"oAP": "\/ref\/old ads\/0017y7c6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/old ads\/3064ab8de1ec2068e18e5d5928b0cb54.jpg": {
+		"ft": 16384,
+		"iS": 177394,
+		"oA": 0,
+		"oAP": "\/ref\/old ads\/3064ab8de1ec2068e18e5d5928b0cb54.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/old ads\/societe.jpg": {
+		"ft": 16384,
+		"iS": 25952,
+		"oA": 0,
+		"oAP": "\/ref\/old ads\/societe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/old ads\/vintage-bicycle-advertising-16.jpg": {
+		"ft": 16384,
+		"iS": 173433,
+		"oA": 0,
+		"oAP": "\/ref\/old ads\/vintage-bicycle-advertising-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/old ads\/vintage-bicycle-advertising-2.jpg": {
+		"ft": 16384,
+		"iS": 188598,
+		"oA": 0,
+		"oAP": "\/ref\/old ads\/vintage-bicycle-advertising-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ref\/project google drive.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/project google drive.webloc",
+		"oF": 0
+		},
+	"\/ref\/textures\/subtle_white_feathers.png": {
+		"ft": 32768,
+		"iS": 166251,
+		"oA": 0,
+		"oAP": "\/ref\/textures\/subtle_white_feathers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/textures\/subtle_white_feathers_@2X.png": {
+		"ft": 32768,
+		"iS": 213101,
+		"oA": 0,
+		"oAP": "\/ref\/textures\/subtle_white_feathers_@2X.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/websites\/fancyBox - Touch enabled, responsive and fully customizable jQue.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/websites\/fancyBox - Touch enabled, responsive and fully customizable jQue.webloc",
+		"oF": 0
+		},
+	"\/ref\/websites\/image06.png": {
+		"ft": 32768,
+		"iS": 506429,
+		"oA": 0,
+		"oAP": "\/ref\/websites\/image06.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/ref\/websites\/Interface Lovers | Home.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/websites\/Interface Lovers | Home.webloc",
+		"oF": 0
+		},
+	"\/ref\/websites\/Les Partisanes -- Poignée de main virile.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/websites\/Les Partisanes -- Poignée de main virile.webloc",
+		"oF": 0
+		},
+	"\/ref\/websites\/MICA + Globe - Globe at MICA.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/websites\/MICA + Globe - Globe at MICA.webloc",
+		"oF": 0
+		},
+	"\/ref\/websites\/New City Microcreamery.webloc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ref\/websites\/New City Microcreamery.webloc",
+		"oF": 0
+		},
+	"\/src\/about-us.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/about-us.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/blog.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/blog.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/classes.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/classes.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/about_us.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/about_us.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/blog_post_1.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/src\/partials\/blog_post_1.html",
+		"oF": 0
+		},
+	"\/src\/partials\/blog_post_2.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/src\/partials\/blog_post_2.html",
+		"oF": 0
+		},
+	"\/src\/partials\/footer.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/head.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/hours.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/hours.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/main-nav.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/main-nav.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/partials\/map.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/src\/partials\/map.html",
+		"oF": 0
+		},
+	"\/src\/sales.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/sales.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/src\/scss\/font.scss": {
 		"aP": 0,
@@ -814,21 +820,47 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/font.css",
+		"oAP": "\/build\/css\/font.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/functional.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/functional.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/icons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/src\/scss\/main.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/styles\/main.css",
-		"oF": 2,
+		"oAP": "\/build\/css\/main.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -840,22 +872,26 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/scss\/reset.css",
+		"oAP": "\/build\/css\/reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/services.kit": {
-		"ft": 2048,
+	"\/src\/services.pug": {
+		"cOD": 1,
+		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/services.html",
-		"oF": 2
+		"oAP": "\/build\/services.html",
+		"oF": 0,
+		"oS": 0
 		},
-	"\/src\/stand-rental.kit": {
-		"ft": 2048,
+	"\/src\/stand-rental.pug": {
+		"cOD": 1,
+		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/stand-rental.html",
-		"oF": 2
+		"oAP": "\/build\/stand-rental.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -2722,20 +2758,20 @@
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "build",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"compileDebug": 1,
 		"outputStyle": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "build\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2803,7 +2839,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "\/dist\/index.html",
+	"previewPathAddition": "build\/index.html",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",

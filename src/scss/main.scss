@@ -1,10 +1,10 @@
-@import 'flexboxgrid.min.css';
 @import 'reset.scss';
 @import 'font.scss';
+@import 'functional.scss';
 /* ----- vars ---- */
 $gradient-start: lighten(#fcab10, 47%);
 $gradient-end: lighten(#fcab10, 44%);
-$background: white;
+$background: #efefef;
 $primary: #fcab10;
 $warning: #f8333c;
 $dark: #222;
@@ -18,20 +18,15 @@ $yelp: #d32323;
   background: -webkit-linear-gradient(to $direction, $gradient-start, $gradient-end);
   background: linear-gradient(to $direction, $gradient-start, $gradient-end);
 }
-/* ----- atomic ---- */
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
+/* ----- mixins ---- */
 
-.dib {
-  display: inline-block;
+html {
+  font-size: 16px;
+}
+.row {
+  max-width: 64em;
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 .btn {
@@ -47,18 +42,6 @@ $yelp: #d32323;
   color: white;
   background-color: $link;
 }
-// .diagonal {
-//   position: relative;
-//   width: 102%;
-//   margin-left: -1%;
-//   transform: rotate(-4deg);
-//   color: black;
-//   background-color: #efefef;
-//   .container,
-//   .flex-row {
-//     transform: rotate(4deg);
-//   }
-// }
 
 section {
   position: relative;
@@ -111,11 +94,11 @@ img {
 }
 
 .mt1 {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .mt2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .pa2 {
@@ -184,18 +167,32 @@ td + td {
   padding-left: 1rem;
 }
 
-footer {
-  margin-top: 1rem;
-  padding-bottom: 2rem;
-  color: white;
-  background: $dark;
-  font-size: 0.75rem;
-
-  a {
-    &:hover {
-      color: white;
-    }
+.overlay {
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 0;
   }
+}
+
+footer {
+  .col {
+    margin-top: 1rem;
+  }
+  background: #222;
+  position: relative;
+  color: #eee;
+  padding-bottom: 3rem;
+  table {
+    color: #eee;
+  }
+  // background-image: url("../images/abstract-1.jpg");
+  // background-size: cover;
 }
 
 main {
@@ -282,7 +279,7 @@ main {
 .map {
   width: 100%;
   height: 300px;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
   background-image: url('../images/fakemap.png');
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -428,50 +425,37 @@ section {
 }
 
 .social-links {
-  i {
-    margin-top: 5px;
-    color: white;
-  }
-
-  li {
+  margin-top: 4px;
+  a {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
-    width: 32px;
-    height: 30px;
-    margin-left: 0.5rem;
-    transition: all 150ms ease;
+    width: 36px;
+    height: 36px;
+    margin-left: 1rem;
     text-align: center;
-    border-radius: 0.25rem;
-    background: grey;
+    border-radius: 100%;
+    background-color: white;
     font-size: 22px;
+    cursor: pointer;
   }
 
-  li:first-of-type {
+  a:first-of-type {
     margin-left: 0;
   }
 
-  .instagram {
-    background-color: $instagram;
-
-    &:hover {
-      background-color: lighten($instagram, 20%);
-    }
+  i {
+    margin-top: 7px;
+    transition: all 250ms ease;
+    color: black;
   }
 
-  .facebook {
-    background-color: $facebook;
+  a {
+    transition: all 250ms ease;
 
     &:hover {
-      background-color: lighten($facebook, 20%);
-    }
-  }
-
-  .yelp {
-    background-color: $yelp;
-
-    &:hover {
-      background-color: lighten($yelp, 20%);
+      transform: scale(1.1);
+      background: #aaa;
     }
   }
 }
@@ -513,4 +497,23 @@ td {
   .asterisk:before {
     margin-top: -0px;
   }
+}
+
+//sm
+@media only screen and (min-width: 48em) {
+  .tr-sm {
+    text-align: right;
+    tr {
+      text-align: right;
+    }
+  }
+  .fr-sm {
+    float: right;
+  }
+}
+//md
+@media only screen and (min-width: 64em) {}
+//lg
+@media only screen and (min-width: 75em) {
+
 }

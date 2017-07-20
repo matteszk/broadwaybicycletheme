@@ -1,0 +1,97 @@
+head
+  meta(charset="utf-8")
+  meta(name="description" content="")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  title Broadway Bicycle | Worker Owned Since 1974
+
+  link(rel="apple-touch-icon" href="apple-touch-icon.png")
+  
+  link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+  link(rel="stylesheet" href="css/flexboxgrid.min.css")
+  link(rel="stylesheet" href="css/main.css")
+  
+  //- script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+  //- script(src="scripts/main-min.js")
+
+body
+  //- div(class="alert")
+    //- p Broadway holiday hours: Tuesday July 10th: CLOSED
+    
+  <!--[if IE]> 
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to improve your experience.</p> 
+  <![endif]-->
+
+  //- include main-nav.pug 
+  header(class="vh100 cover" id="hero")
+  
+  
+
+  header(class="vh100" id="hero")
+    div(class="center--vertical")
+      div(class="logo center logo-anim")
+        //- include partials/svg_logo.html
+      
+      div(class="container tc")
+        p 
+          a(href="#about") Worker Owned Since 1974 
+        p Open for your morning commute
+        
+  section
+    div(id="services" class="anchor")
+    div(class="container")
+      h1 Professional Repairs, Builds, &amp; Tune–ups
+      p At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should!</p>
+      p No appointment necessary&mdash;just bring your bike in and we can give you a <span class="primary">free estimate</span>. You can leave the bike with us, or schedule a more convenient time.</p>
+      a(class='btn' href="services.html") See Services
+
+  div(class="bg--fixed" style="background-image: url('images/temp-roof.jpg'); background-position: top")
+        
+  section
+    div(class="container")
+      h1 Latest News
+      include partials/blog_post_1.html
+      a(class='btn' href="stand-rental.html") More Posts
+      
+  section
+    div(class="flex-row")
+      div(class="column small-3 instagram-image")
+        a(href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/")
+          div(class="img" style="background-image: url('images/insta1.png')")
+        
+      div(class="column small-3 instagram-image")
+        a(href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/")
+          div(class="img" style="background-image: url(images/insta2.png)")
+        
+      div(class="column small-3 instagram-image")
+        a(href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/")
+          div(class="img" style="background-image: url(images/insta3.png)")
+          
+  section
+    div(id="classes" class="anchor")
+    div(class="container")
+      h1 Classes &amp; Seminars
+      p We love fixing bikes, and we’ve been sharing that love&mdash;and skills&mdash;our classes for 30+ years. In 20XX we also began hosting “Women and Non-Binary” versions of our classes to promote cycling and getting greasy in our LGBT community.</p>
+      ul(class="list--indented")
+        li
+          a(href="/classes.html#basic") Basic Class
+        li
+          a(href="/classes.html#wheelbuilding") Wheelbuildling Class
+        li
+          a(href="/classes.html#discbrake") Disc Brake Seminar
+      a(href="classes.html" class="btn") Upcoming Classes
+
+  section
+    div(id="rental" class="anchor")
+    div(class="container")
+      h1 Stand Rental
+      p When you‘ve got the gumption and know-how, but not the garage or tools, we got your back. Broadway Bicycle offers our stands and tools for rental, either on your own, or with instruction.</p>
+      a(class='btn' href="stand-rental.html") Stand Rental Info
+
+  div(class="bg--fixed" style="background-image: url('images/temp-recyling.jpg'); background-position: top")
+
+  
+  section
+    div(id="about" class="anchor")
+    include partials/about_us.pug
+
+  include partials/footer.pug
