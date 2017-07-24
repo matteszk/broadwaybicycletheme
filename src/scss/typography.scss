@@ -1,0 +1,57 @@
+.accent-font,
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  font-family: 'plaza_d_otultra', Trebuchet MS, Verdana, Helvetica, sans-serif;
+  line-height: 1.25;
+  color: $header;
+}
+
+.h1,
+h1 {
+  font-size: 3rem;
+}
+
+.h2,
+h2 {
+  font-size: 2rem;
+}
+
+.h3,
+.h4,
+.h5,
+.h6,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem;
+}
+
+@media (--sm-viewport) {
+  .h1,
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .h2,
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+@media (--md-viewport) {}
+@media (--lg-viewport) {}

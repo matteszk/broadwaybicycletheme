@@ -7,11 +7,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="css/main.css"/>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="scripts/main-min.js"></script>
 </head>
 <body><!--[if IE]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
-  <div class="main-nav"> <a class="nav__svg" href="http://broadway.bike"><img src="svg/svg_logo.svg"/></a><a class="nav__header accent-font" href="http://broadway.bike">Broadway Bicycle</a>
+  <div class="main-nav"> 
     <nav class="nav__list">
       <ul>
         <li> <a href="services.html">Services</a></li>
@@ -109,41 +107,27 @@
     <p class="column small-2 tr"><a Entries="Entries"></a></p>
   </div>
 </section>
-<footer><div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3qtpSk2ydXLKH24ezN0H1aISBmlhlXw8&callback=initMap">
-       </script>
-
+<footer class="dark">
   <div class="row">
-    <div class="col col-xs-12 col-sm-6">
-      <ul class="social-links list--inline"><a href="http://#">
-          <li class="instagram"> <i class="fa fa-instagram"></i></li></a><a href="http://">
-          <li class="facebook"> <i class="fa fa-facebook"></i></li></a><a href="http://#">
-          <li class="yelp"> <i class="fa fa-yelp"></i></li></a></ul>
+    <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 mt1">
+      <ul class="social-links">
+        <li> <a class="btn instagram" href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/"><i class="fa fa-instagram"> </i><span class="visually-hidden">instagram</span></a></li>
+        <li class="ml1"><a class="btn facebook" href="https://www.facebook.com/broadwaybicycleschool/"><i class="fa fa-facebook"></i><span class="visually-hidden">facebook</span></a></li>
+        <li class="ml1"><a class="btn  yelp" href="https://www.yelp.com/biz/broadway-bicycle-school-cambridge"><i class="fa fa-yelp"></i><span class="visually-hidden">instagram</span></a></li>
+      </ul>
       <ul class="mt1"> 
         <li><a href="mailto:broadway@broadwaybicycle.com">broadway@broadwaybicycle.com</a></li>
         <li><a href="mailto:classes@broadwaybicycle.com">classes@broadwaybicycle.com</a></li>
       </ul>
     </div>
-    <div class="col col-xs-12 col-sm-6 tr-sm">
+    <div class="col-xs-12 col-sm-4 col-md-4 mt1 tc-sm">
       <ul>
         <li> <a href="https://www.google.com/maps/place/Broadway+Bicycle+School/@42.3704856,-71.1056672,16.92z/data=!4m5!3m4!1s0x0:0x4363b979c482338e!8m2!3d42.3704722!4d-71.1035003">351 Broadway,<br>Cambridge MA 02139</a></li>
         <li> <a href="tel:+16178683392">(617) 868–3392</a></li>
       </ul>
-      <table class="fr-sm mt1 table">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3 mt1">
+      <table class="fr-sm tr-sm">
         <tr>
           <td>Monday–Wednesday</td>
           <td>8–6</td>
