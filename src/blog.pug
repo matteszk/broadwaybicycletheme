@@ -1,16 +1,22 @@
 include head.pug
 
-div(class="bg--fixed" style="background-image: url('images/class.jpg'); background-position: top")
-
-section
-  div(class="container")
-    include blog_post_2.html
-    include blog_post_1.html
+header(class="relative vh-header vh-header-bottom")
+  div(class="absolute bg--fixed cover h100" style="background-image: url('images/shop-dog-pano.jpg'); background-position: bottom;")
+  div(class="absolute overlay light")
+    h1(class="visually-hidden") Blog
+    
+section(class="relative blog")
+  div(class="row")
+    div(class="col-sm-12 col-lg-6 col-lg-offset-3")
+      include blog_post_2.html
+  div(class="row section-margin")
+    div(class="col-sm-12 col-lg-6 col-lg-offset-3")
+      include blog_post_1.html
   
-  div(class="flex-row")
-    p(class="column small-2")
+  div(class="row")
+    p(class="col-sm-2")
       a(href="/blog">Newer Entries)
-    p(class="column small-2 tr")
+    p(class="col-sm-2 tr")
       a(href="/blog">Older Entries)
 
 include footer.pug

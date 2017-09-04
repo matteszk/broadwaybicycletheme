@@ -1,7 +1,6 @@
 @import 'reset.scss';
 @import 'flexboxgrid.scss';
 @import 'fonts.scss'; // @import 'tachyons.min.css';
-
 $background: #ffffff;
 $primary: #046B99;
 $light: #B3EFFF;
@@ -32,6 +31,7 @@ a {
     color: $link-hover;
   }
 }
+
 
 td + td {
   padding-left: 1rem;
@@ -252,6 +252,10 @@ p + p {
   padding-right: 2rem;
 }
 
+.mt50 {
+  margin-top: .50rem;
+}
+
 .mt1 {
   margin-top: 1rem;
 }
@@ -345,11 +349,9 @@ p + p {
   background-color: $warning;
 }
 
-
 .bold {
   font-weight: bold;
 }
-
 
 .overlay {
   width: 100%;
@@ -419,6 +421,29 @@ p + p {
 
 .section-margin {
   margin-top: 3rem;
+}
+
+.blog {
+  img {
+    margin-top: 2rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 3rem;
+  }
+
+  ul {
+    line-height: 2;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    list-style: circle;
+  }
+
 }
 @media screen and (max-width: 80em) {
   .instagram-image:nth-child(n+7) {
