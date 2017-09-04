@@ -1,16 +1,47 @@
 include head.pug
-<div class="bg--fixed" style="background-image: url('images/class.jpg'); background-position: top"></div>
-<section>
-  <div class="container">
-    <h1>Stand Rental</h1>
-    <p>Lacking a garage Access to our tools and the truing stands.</p>
-    <p>Stand rental and instruction hours are subject to stand and mechanic availability, as well as holiday hours. <a href="tel:+16178683392">Call ahead</a> to confirm.</p>
-    <p>Some speciality tools are only available with instruction and incur instruction hourly rate. Some tools are not available at all. <a href="tel:+16178683392">Call ahead</a> if you need a speciality tool.</p>
-  </div>
-  <div class="flex-row dark">
-    <div class="column small-2">
-      <h2>Rates</h2>
-      <table class="table mt2">
+header(class="relative vh-header vh-header-bottom")
+  div(class="absolute bg--fixed cover h100" style="background-image: url('images/tools.jpg'); background-position: bottom;")
+  div(class="absolute overlay light")
+    h1(class="visually-hidden") Classes
+
+section(class="relative")    
+  div(class="row section-margin")
+    div(class="col-xs-12 col-md-7 col-md-offset-2 pa-grid mb1")
+      h1
+        <span class="tilt-l">Stand</span> 
+        <span class="tilt-r">Rental</span>
+  div(class="row")
+    div(class="col-xs-12 col-sm-8 col-md-5 col-md-offset-2 col-lg-4")
+      p Access to our tools and the truing stands.
+      p Stand rental and instruction hours are subject to stand and mechanic availability, as well as holiday hours. <a href="tel:+16178683392">Call ahead</a> to confirm.
+      p Some speciality tools are only available with instruction and incur instruction hourly rate. Some tools are not available at all. <a href="tel:+16178683392">Call ahead</a> if you need a speciality tool.
+      
+      <h2 class="mt2">Hours for Stand Rental & <span class="db tilt-l">Instruction</span></h2>
+      <table class="mt1">
+        <tr>
+          <td>Monday&ndash;Wednesday</td>
+          <td>10&ndash;4</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>11&ndash;4:30</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>11&ndash;4</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>10:30&ndash;5:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>12:30&ndash;4:00</td>
+        </tr>
+      </table>
+      
+      h2(class="mt2") Rates
+      <table class="table">
         <tr>
           <td>Without Instruction</td>
           <td>$24/hour<i class="asterisk"></i></td>
@@ -20,57 +51,17 @@ include head.pug
           <td>$48/hour<i class="asterisk"></i></td>
         </tr>
       </table>
-      <p class="footnote"><i class="asterisk--left"></i>Rates are charged in 5 minute increments.</p>
-    </div>
-    <div class="column small-2">
-      <h2>Stand Rental Hours<i class="asterisk"></i></h2>
-      <table>
-        <tr>
-          <td>Monday&ndash;Wednesday</td>
-          <td>8:30&ndash;5:30</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>8:30&ndash;6:30</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>8:30&ndash;5:30</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>10:30&ndash;5:30</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>12:30&ndash;4:30</td>
-        </tr>
-      </table>
-      <h2>Hours With Instruction</span></h2>
-      <table>
-        <tr>
-          <td>Monday&ndash;Wednesday</td>
-          <td>10&ndash;4</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>10&ndash;5</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>10&ndash;4</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>10:30&ndash;5:30</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>12:30&ndash;4:30</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-</section>
+      p(class="footnote") <i class="asterisk--left"></i>Rates are charged in 5 minute increments.</p>
+
+    aside(class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1 pa0 first-xs last-sm")
+      div(class="cover image-tall bg-top" style="background-image: url(images/joe_teaching.jpg)")
+      
+      p(class="bold mt2") Things to know about stand rental 
+      ul(class="list--indented")
+        li You get access to all the basic tools and the truing stands
+        li All rates are charged in 5 minute increments
+        li Certain specialty tools are not available and some are but may require supervision at the teaching rate of $48/hour.
+        li Stand rental and instruction is subject to availability of stands and/or mechanics
+      
 
 include footer.pug

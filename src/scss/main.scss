@@ -1,6 +1,7 @@
 @import 'reset.scss';
 @import 'flexboxgrid.scss';
-@import 'fonts.scss';
+@import 'fonts.scss'; // @import 'tachyons.min.css';
+
 $background: #ffffff;
 $primary: #046B99;
 $light: #B3EFFF;
@@ -126,8 +127,12 @@ footer {
 
 .cover {
   background-repeat: no-repeat;
-  background-position: left;
+  // background-position: left;
   background-size: cover;
+}
+
+.image-tall {
+  height: 32em;
 }
 
 .image1 {
@@ -142,17 +147,9 @@ footer {
   height: 12em;
 }
 
-footer,
-p,
-ul {
-  padding-right: 1rem;
+.text-col {
   padding-left: 1rem;
-}
-
-h1,
-h2 {
   padding-right: 1rem;
-  padding-left: 1rem;
 }
 
 p + p {
@@ -235,8 +232,24 @@ p + p {
   margin-top: 2rem;
 }
 
+.pl50 {
+  padding-left: 0.5rem;
+}
+
 .pl1 {
   padding-left: 1rem;
+}
+
+.pr1 {
+  padding-right: 1rem;
+}
+
+.pl2 {
+  padding-left: 2rem;
+}
+
+.pr2 {
+  padding-right: 2rem;
 }
 
 .mt1 {
@@ -245,6 +258,10 @@ p + p {
 
 .mt2 {
   margin-top: 2rem;
+}
+
+.mt3 {
+  margin-top: 3rem;
 }
 
 .mr1 {
@@ -312,14 +329,6 @@ p + p {
   padding-right: 0 !important;
 }
 
-.pt1 {
-  padding-top: 1;
-}
-
-.pt2 {
-  padding-top: 2;
-}
-
 .show-lg,
 .show-md,
 .show-sm {
@@ -335,6 +344,12 @@ p + p {
   }
   background-color: $warning;
 }
+
+
+.bold {
+  font-weight: bold;
+}
+
 
 .overlay {
   width: 100%;
