@@ -9,18 +9,16 @@ body
   <![endif]-->
 
   header(class="relative vh-header")
-    div(class="absolute bg--fixed cover h100" style="background-image: url('images/tools.jpg'); background-position: bottom;")
+    div(class="absolute bg--fixed cover h100 bottom" style="background-image: url('images/tools.jpg');")
     div(class="absolute overlay light")
     div(class="absolute row w100 h100")
       div(class="col-xs-1 h100")
-      div(class="col-xs-4 ")
+      div(class="col-xs-4")
         include ../build/svg/svg_logo.svg
-      div(class="col-xs-6 col-xs-offset-1" style="margin-top: 5rem;")
-        p(class="h2 ") Worker Owned <nobr>Since 1974</nobr>
+      div(class="col-xs-6 col-xs-offset-1 mt4")
+        p(class="h2") Worker Owned <nobr>Since 1974</nobr>
         table(class="ml1 mt1" style="margin-right: 1rem")
           include hours.pug
-
-
 
 
   div(class="row" style="margin-top: -4rem;")
@@ -30,14 +28,12 @@ body
     div(class="col-xs-12 col-sm-4 col-md-5")
       div(class="cover image1" style="background-image: url(images/kate.jpg)")
 
-    div(class="col-xs-12 col-sm-8 col-md-7 col-lg-5")
+    div(class="col-xs-12 col-sm-8 col-md-7 col-lg-5 pl1")
       p(class="mt1-xs") At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! 
       p No appointment necessary—just bring your bike in and we can give you a free estimate. You can leave the bike with us, or schedule a more convenient time.
 
   div(class="row mt1 show-md")
-    div(class="col-xs-2")
-      //- div(class="cover image3" style="background-image: url(images/repair-v.jpg)")
-    div(class="col-xs-3")
+    div(class="col-xs-3 col-xs-offset-2")
       div(class="cover image2" style="background-image: url(images/repair-v.jpg)")
 
 
@@ -73,19 +69,22 @@ body
   div(class="row mt1")
     div(class="col-xs-12 col-md-9 col-md-offset-1")
       div(class="row")
-        div(class="col-xs-4 instagram-image")              
-          div(class="cover square" style="background-image: url(images/insta1.png); background-position: top;")
-        div(class="col-xs-4 instagram-image")
-          div(class="cover square" style="background-image: url(images/insta2.png); background-position: top;")
-        div(class="col-xs-4 instagram-image")
-          div(class="cover square" style="background-image: url(images/insta3.png); background-position: top;")
-      div(class="row")
-        div(class="col-xs-4 instagram-image")
-          div(class="cover square" style="background-image: url(images/insta2.png); background-position: top;")
-        div(class="col-xs-4 instagram-image")
-          div(class="cover square" style="background-image: url(images/insta3.png); background-position: top;")
-        div(class="col-xs-4 instagram-image")
-          div(class="cover square" style="background-image: url(images/insta1.png); background-position: top;")
+        div(class="col-xs-4 col-lg-3 instagram-image")              
+          div(class="cover square" style="background-image: url(images/insta1.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta2.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta3.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta4.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta5.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta6.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta7.jpg);")
+        div(class="col-xs-4 col-lg-3 instagram-image")
+          div(class="cover square" style="background-image: url(images/insta8.jpg);")
 
   section()    
     div(class="row section-margin")
@@ -96,46 +95,45 @@ body
           <span class="tilt-r"> Since</span>
           <span class="tilt-r"> 1972</span>
       div(class="col-xs-12 col-md-6 pa-grid")
-        p We‘re a collectively run bicycle shop in operation for 40+ years. A subset of workers own and democratically manage the business. We are proud to offer a minimum wage of <a href="http://fightforfifteen.org">$15 per hour</a> and health insurance for full time employ
+        p We’re a worker-owned and operated cooperative in operation for 40+ years. To quote our friends at Equal Exchange “a worker cooperative is an alternative for-profit structure based upon standard democratic principles. It is not designed to maximize profits, nor returns to investors, but rather to bring to the workplace many of the rights and responsibilities that we hold as citizens in our communities. These principles include one-person/one-vote equality; open access to information (i.e., open-book management); free speech; and the equitable distribution of resources (such as income).”  Because of this we adhere to the 7 Cooperative Principles which includes upholding worker rights and participating in our community for the better.
+        p We are proud to offer a minimum wage of $15 per hour and health insurance for full time workers. 
         p Walking into a bicycle shop for the first time can be an intimidating endeavor for many, which is why Broadway strives to create a welcoming environment for all persons that come through our door.
 
-    div(class="row pa0 mt1")
+    div(class="row pa0 mt6")
       div(class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1")
-        p Broadway regularly sponsors, volunteers, and donates to local organizations and events including:
+        p <span class="h3">Broadway supports,</span> partners with, sponsors, and donates to local organizations and events including:
         ul(class="list--indented")
-          li <a href="http://www.kids.pmc.org/">Mass Bike</a> Silent Auction
-          li <a href="https://bikesnotbombs.org/">Bikes Not Bombs</a> Vocational Training Program
+          li Hosting monthly Femmechanics free open shop Grrrease Time to FTW cyclists and offers 10% Discount to participants. 
+          li U.S. Federation of Worker Cooperative
+          li Greater Boston Chamber of Cooperatives
+          li Boston Center for Community Ownership
+          li Broadway’s Bike to Work Week Pancake Breakfast for Bay State Bike Week.
           li Bikes Not Bombs Bike-A-Thon
-          li Broadway’s Bike to Work Week Pancake Breakfast
-          li <a href="bostonbicyclereflector.blogspot.com/">Boston Bicycle Reflector Zine</a>
-          li <a href="https://www.ace-ej.org/">Alternatives Community and Environment</a> (A.C.E.) Silent Auction
-          li 10% Discount to <a href="brattlefilm.org">Brattle Theater</a> members
-          li Celebrating Gay Pride Week by hosting a bake sale with all proceed going to <a href="https://www.facebook.com/BostonGLASS.JRI/">Boston GLASS</a>
-
+          li Boston Cyclist Union annual fundraiser.
+          li MassBike annual silent auction.
+          li Red Bones annual Bike Party raffle for MassBike and NEMBA 
+          li 10% Discount to MassBike, Boston Cyclist Union and Charles River Wheelers members.  
+          li Monthly discounts during Green Street Initiative Walk/Ride Days
+          li 10% Discount to Brattle Theater members
+          li Celebrating Gay Pride Week by hosting a bake sale with all proceeds going to Boston GLASS
+          
+        div(class="mt2")
+          img(class="business-icon mr2" alt="Buy Where You Ride" src="images/BWYR-Logo-Standard.png")
+          img(class="business-icon mr2" alt="Business for Fair Minimum Wage" src="images/fair-minimum-logo.png")
+          img(class="business-icon" alt="United States Federation of Worker Cooperatives" src="images/usworkerlogo.png")
       div(class="col-sm-3 pa0")
         div(class="cover image2 show-md" style="background-image: url(images/door.jpg)")
-        div(class="cover image3 mt1 show-md" style="background-image: url(images/dogjar.jpg); background-position: top;")
+        div(class="cover image3 mt1 show-md" style="background-image: url(images/dogjar.jpg);")
 
   div(class="cover col-md-8 image1 section-margin hide-md" style="background-image: url(images/frames.jpg)")
 
-  section(class="row mt2")
+  section(class="row mt6")
     div(class="col-xs-0 col-sm-2")
     div(class="col-xs-12 col-md-8 col-lg-5 pa-grid")
       h1(class="pl1")
         <span class="tilt-l">Latest News</span>
       include blog_post_1.html
       a(class="btn mt2 ml05" href="stand-rental.html") More Posts
-
-  //- section
-  //-   div(id="rental" class="anchor")
-  //-   div(class="row max-width")
-  //-     div(class="col col-xs-12 col-sm-6")
-  //-       h1 Stand Rental
-  //-       p When you‘ve got the gumption and know-how, but not the garage or tools, we got your back. Broadway Bicycle offers our stands and tools for rental, either on your own, or with instruction.</p>
-  //-       a(class='btn' href="stand-rental.html") Stand Rental Info
-
-  //- div(class="bg--fixed" style="background-image: url('images/temp-recyling.jpg'); background-position: top")
-
 
   div(class="col-xs-12 section-margin")
     div(class="cover image1" style="background-image: url(images/fakemap.png);")
