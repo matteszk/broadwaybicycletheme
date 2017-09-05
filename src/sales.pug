@@ -1,58 +1,62 @@
 include head.pug
-<div class="bg--fixed" style="background-image: url('images/temp-roof.jpg')"></div>
-section
-  <div class="container">
-    <h1 class="visually-hidden">Bike Sales &amp; Rentals</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-  //- div(class="row pa0 middle-xs center-xs")
-  //-   div(class="row col-xs-12 col-sm-10 col-md-10")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="Surly" src="images/logo-surly.png")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="Marin" src="images/logo-marin.png")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="All City" src="images/logo-all-city.png")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="Brooklyn Bicycle" src="images/logo-brooklyn-bicycle-co.png")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="Brompton" src="images/logo-brompton.png")
-  //-     div(class="pa-grid col-xs-6 col-sm-4")
-  //-       img(alt="Velo Orange" src="images/logo-velo-orange.png")
+header(class="relative vh-header")
+  div(class="absolute bg--fixed cover h100 bg-bottom" style="background-image: url('images/rack.jpg');")
+  //- div(class="absolute overlay light")
+    //- h1(class="visually-hidden") Blog
+    
+section(class="relative")    
+  div(class="row")
+    div(class="col-xs-3 col-xs-offset-1")
+    div(class="col-xs-7")
+      //- div(class="cover image-tall bg-bottom" style="background-image: url(images/rack.jpg)")
+        
+div(class="row relative mt3")
+  div(class="col-xs-4 bg-red tr")
+    h1(class="") <span class="tilt-l">Sales</span> & <span class="tilt-r">Rentals</span>
+    p ipsum lroem ad alkj aeiu veni qalkj a bacon
+  div(class="row col-xs-7 col-lg-5 col-xs-offset-1")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="Surly" src="images/logo-surly.png")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="Marin" src="images/logo-marin.png")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="All City" src="images/logo-all-city.png")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="Brooklyn Bicycle" src="images/logo-brooklyn-bicycle-co.png")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="Brompton" src="images/logo-brompton.png")
+    div(class="pa-grid col-xs-6 col-sm-4")
+      img(alt="Velo Orange" src="images/logo-velo-orange.png")
 
 
 <div class="bg--fixed" style="background-image: url('images/temp-brompton.jpg')"></div>
 
-section
-  <div class="container">
-    <h2>Boston’s Brompton Specialists</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <a class='btn' href="stand-rental.html">Order Yours</a>
-  </div>
+section(class="row section-margin")
+  div(class="col-xs-3 col-xs-offset-1")
+    div(class="cover image-tall bg-bottom" style="background-image: url(images/brompton-two.jpg)")
+  div(class="col-xs-4 pl2")
+    h2 Boston’s Brompton Specialists
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    a(class='btn mt1' href="stand-rental.html") Order Yours
   
-section
-  <div class="container">
-    <h2 class="">Bike Rentals</h2>
-  </div>
-  <div class="flex-row">
-    <div class="column small-2">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-    </div>
-    <div class="column small-2">
-      <h3>Rental Rates</h3>
-      <p>We ONLY rent Bromptons (we have a rental fleet of about 4 Brompton folding bikes). The rental includes a lock, lights and helmet. You must have a valid ID and credit card to rent a bike (no American Express).</p><p>Rentals are first come first served, no reservations, subject to availability</p>
-      <table>
-        <tr>
-          <td>Daily</td>
-          <td>$30</td>
-        </tr>
-        <tr>
-          <td>Weekly</td>
-          <td>$120</td>
-        </tr>
-      </table>
-    </div>
-  </div>
+div(class="section-margin row")
+  div(class="col-xs-4 col-xs-offset-2")
+    h2(class="") Bike Rentals
+    p(class="") We <b class="accent-font">only</b> rent Bromptons (we have a rental fleet of about 4 Brompton folding bikes). The rental includes a lock, lights and helmet. You must have a valid ID and credit card to rent a bike (no American Express).
+
+    p Rentals are first come first served, no reservations, subject to availability.
+    table
+      tr
+        td Daily
+        td(class="accent-font") $30
+
+      tr
+        td Weekly
+        td(class="accent-font") $120
+  div(class="col-xs-4 col-xs-offset-1")
+    div(class="cover image1 bg-top" style="background-image: url(images/brompton-duo.jpg)")
+
+
+
 
 include footer.pug
