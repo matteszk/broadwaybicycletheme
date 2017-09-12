@@ -1,4 +1,3 @@
-
 .ml05 {
   margin-left: 0.5rem;
 }
@@ -110,4 +109,13 @@
 
 .pr0 {
   padding-right: 0 !important;
+}
+@media screen and (max-width: 42em) {
+  .xs-mt1 {
+    margin-top: 1rem;
+  }
+
+  .xs-mt2 {
+    margin-top: 2rem;
+  }
 }
