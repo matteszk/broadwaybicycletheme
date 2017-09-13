@@ -21,21 +21,19 @@ body {
   font-size: 16px;
   line-height: 2;
   color: $body;
-  @media (--sm-viewport) {
-    background: #eed;
-  }
+  background-color: rgb(255, 255, 252);
+  @media (--sm-viewport) {}
   @media (--md-viewport) {
-    background: white;
+    background: rgb(255, 255, 252);
   }
   @media (--lg-viewport) {
-    background: rgb(255, 255, 253);
+    background: white;
   }
 }
 
-
 a {
   font-weight: bold;
-  transition: all 150ms ease;
+  transition: all 100ms ease;
   text-decoration: none;
   color: $link;
 
@@ -253,25 +251,6 @@ ul + p {
   }
 }
 
-.main-nav {
-  position: fixed;
-  z-index: 9999;
-  box-sizing: border-box;
-  padding: 1rem;
-  width: 100%;
-  transition: transform 150ms ease;
-  background-color: rgba(255,255,255,0.95);
-
-  ul {
-    text-align: center;
-  }
-
-  li {
-    display: inline-block;
-    padding: 0 1rem;
-  }
-}
-
 .h100 {
   height: 100%;
 }
@@ -294,13 +273,11 @@ ul + p {
 
 .logo {
   max-height: 400px;
-
 }
 
 .cls-1 {
-    fill: $header;
+  fill: $header;
 }
-
 
 .first-aside {
   margin-top: 2rem;
@@ -360,29 +337,14 @@ ul + p {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media screen and (max-width: 42em) {
-  .sm-show {
-    display: none;
-  }
-}
-@media screen and (max-width: 60em) {
-  .instagram-image:nth-child(n+7) {
-    display: none;
-  }
-
-  .md-show {
-    display: none;
-  }
-}
-@media screen and (max-width: 80em) {
-  .lg-show {
-    display: none;
-  }
-}
 //xs only
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 41.9em) {
   .xs-tc {
     text-align: center;
+  }
+
+  .sm-show {
+    display: none;
   }
 
   .xs-gutter {
@@ -412,6 +374,101 @@ ul + p {
     text-align: center;
   }
 }
+@media screen and (max-width: 59.9em) {
+  .instagram-image:nth-child(n+7) {
+    display: none;
+  }
+
+  .md-show {
+    display: none;
+  }
+
+  .main-nav-bg {
+    position: absolute;
+    background: $primary;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100vh);
+    transition: all 200ms ease;
+  }
+
+  .main-nav {
+    // display: none;
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    text-align: center;
+    transition: all 250ms ease;
+
+    li {
+      font-size: 22px;
+    }
+
+    a {
+      color: white;
+
+      &:hover {
+        color: $header;
+      }
+    }
+    // .main-nav-logo {
+    //   width: 50%;
+    //   position: absolute;
+    //   top: 2rem;
+    // }
+    //
+    // .cls-1 {
+    //   fill: white;
+    // }
+    nav {
+      color: white;
+      margin-top: 50vh;
+      transform: translateY(-25vh);
+    }
+
+    ul {
+      transition: all 250ms ease;
+      // transition-delay: 155ms;
+      opacity: 0;
+      transform: translateY(10vh);
+    }
+  }
+
+  .main-nav.visible {
+    opacity: 1;
+    pointer-events: auto;
+
+    ul {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .main-nav-bg {
+
+      transform: translateY(0);
+
+    }
+
+    // display: block;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 32px;
+    color: $header;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
 @media (--md-viewport) {
   .md-db {
     display: block;
@@ -437,7 +494,42 @@ ul + p {
     transform: translate( 4rem,0);
   }
 
+  .menu-toggle {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    // font-size: 14px;
+    width: 100%;
+    transition: transform 150ms ease;
+    background-color: rgba(255,255,255,0.95);
+
+    ul {
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      padding: 0 1rem;
+    }
+  }
+
+  .main-nav-spacer {
+    display: block;
+    height: 60px;
+  }
+
   .instagram-image:nth-child(n+9) {
+    display: none;
+  }
+}
+@media screen and (max-width: 79.9em) {
+  .lg-show {
     display: none;
   }
 }
