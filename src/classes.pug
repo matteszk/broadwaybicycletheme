@@ -1,9 +1,12 @@
 include head.pug
 
+
+div(class="main-nav-spacer")
+
 h1(class="h2 visually-hidden") Classes
 
 section(class="relative")
-  div(class="row")
+  div(class="row gutter")
     div(class="col-xs-12 col-md-3 md-tr pr2")
       h2(class="h1 tilt-l") Upcoming <span class="db">Classes</span>
       
@@ -33,7 +36,7 @@ section(class="relative")
           li Available Spaces: X
           li(class="footnote") *No class on July 3rd
         a(href="#" class="mt1 btn tilt") Register
-      article(class="mt2 col-xs-12 col-sm-6 col-lg-4 ")
+      article(class="mt2 col-xs-12 col-sm-6 col-lg-4")
         h2(class="h2") Wheelbuilding
         ul(class="")
           li Mondays, June 26–July 24*
@@ -47,13 +50,13 @@ section(class="row section-margin")
     div(class="cover image1" style="background-image:url(images/tools.jpg);")
 
   div(class="col-xs-12 col-md-7")
-    article(class="row mt2")
+    article(class="row mt2 gutter")
       div(class="col-xs-12 col-md-offset-3")
         h2(class="h1")
           <span class="tilt-r">Class </span> &amp; 
           <span class="tilt-l">Seminar Details</span> 
       
-    article(class="row mt2" id="basic")
+    article(class="row mt2 gutter" id="basic")
       div( class="col-xs-12 col-sm-3 md-tr pr1")      
         h2(class="h2") Basic <span class="tilt-r">Class </span> 
       div( class="col-xs-12 col-sm-8")      
@@ -68,7 +71,7 @@ section(class="row section-margin")
           li Week 6 – Rear derailleur adjustment
           
 
-    article(class="row mt2" id="wheelbuildilng")
+    article(class="row mt2 gutter" id="wheelbuildilng")
       //- div(class="cover col-xs-12 col-sm-9 col-sm-offset-3 image1 mt2 mb1" style="background-image:url(images/repair2.jpg);")
       div(class="col-xs-12 col-sm-3 md-tr pr1")      
         h2(class="h2 tilt-l") Wheel building
@@ -86,7 +89,7 @@ section(class="row section-margin")
       
     //- div(class="cover col-xs-12 col-sm-9 col-sm-offset-3 image1 mt2 mb1" style="background-image:url(images/repair2.jpg);")
     
-    article(class="row mt2" id="discbrake")
+    article(class="row mt2 gutter" id="discbrake")
       div(class="col-xs-12 col-sm-3 md-tr pr1")      
         h2(class="h2") Disc Brake <span class="tilt-l">Seminar</span>
       div(class="col-xs-12 col-sm-8")      
@@ -100,7 +103,7 @@ section(class="row section-margin")
           li Hydraulic Brake Bleed
           
   div(class="col-xs-12 col-md-5 col-md-offset-0 col-lg-4 col-lg-offset-1")
-    aside(class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12")
+    aside(class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12 gutter")
       h1(class="h3") A few things to know about our classes
       p(class="") Wear clothes that you don’t mind getting grease on.
       p Wear closed-toe shoes.
@@ -111,14 +114,16 @@ section(class="row section-margin")
     
     aside(class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12")
       div(class="cover image2" style="background-image:url(images/class-women.jpg);")
-      h1(class="h3 mt2") FTW Classes
-      p(class="") FTW (femme/trans/women) classes are identical to the co-ed classes except that it is taught by women/transfolks/femme mechanics in an intentional environment meant to give space to people who want to learn bike mechanics and are not cismen.
+      div(class="gutter")
+        h1(class="h3 mt2") FTW Classes
+        p(class="") FTW (femme/trans/women) classes are identical to the co-ed classes except that it is taught by women/transfolks/femme mechanics in an intentional environment meant to give space to people who want to learn bike mechanics and are not cismen.
         
     aside(class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12")
       div(class="cover image2 mt2" style="background-image:url(images/class-offsite.jpg);")
-      h1(class="h3 mt2") Offsite Lessons
-      p(class="") We also do off site work—Companies, events and organizations can hire us for events or on location trainings and/or tune-ups.
-      a(href="#" class="btn mt1") Contact Us
+      div(class="gutter")
+        h1(class="h3 mt2") Offsite Lessons
+        p(class="") We also do off site work—Companies, events and organizations can hire us for events or on location trainings and/or tune-ups.
+        a(href="#" class="btn mt1") Contact Us
 
 div(class="col-xs-12 section-margin")
 include footer.pug
