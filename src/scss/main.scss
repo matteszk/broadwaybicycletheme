@@ -1,22 +1,22 @@
-$off-white :  rgb(255, 255, 252);
-$light-blue : #046B99;
-
-$text-light: white;
+$off-white: rgb(255, 255, 252);
+$light-blue: #046B99;
+/* ~~~~ */
+$text-inverted: white;
 $primary: $light-blue;
 $warning: #f3b137;
 $header: darken(#046B99, 20%);
 $dark: darken(#046B99, 24%);
-$body: $dark;
+$text: $dark;
 $link: $primary;
 $link-hover: $dark;
-
 $background: $off-white;
+/* ~~~~ */
 @import 'reset.scss';
 @import 'flexboxgrid.scss';
 @import 'fonts.scss';
 @import 'typography.scss';
 @import 'margin-padding.scss';
-
+/* ~~~~ */
 [hidden] {
   display: none;
 }
@@ -38,7 +38,7 @@ body {
   font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: $body;
+  color: $text;
   background-color: $background;
 }
 
@@ -67,11 +67,11 @@ td + td {
 }
 
 .dark {
-  color: $text-light;
+  color: $text-inverted;
   background: $dark;
 
   table {
-    color: $text-light;
+    color: $text-inverted;
   }
 
   .h1,
@@ -80,11 +80,11 @@ td + td {
   h1,
   h2,
   h3 {
-    color: $text-light;
+    color: $text-inverted;
   }
 
   a {
-    color: $text-light;
+    color: $text-inverted;
 
     &:hover {
       color: $primary;
@@ -92,12 +92,12 @@ td + td {
   }
 
   .btn {
-    border: 1px solid $text-light;
+    border: 1px solid $text-inverted;
 
     &:hover {
       color: $dark;
-      border: 1px solid $text-light;
-      background: $text-light;
+      border: 1px solid $text-inverted;
+      background: $text-inverted;
     }
   }
 }
