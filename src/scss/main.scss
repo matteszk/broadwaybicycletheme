@@ -1,11 +1,16 @@
-$primary: #046B99;
-$bright: #00CFFF;
+$off-white :  rgb(255, 255, 252);
+$light-blue : #046B99;
+
+$text-light: white;
+$primary: $light-blue;
 $warning: #f3b137;
 $header: darken(#046B99, 20%);
 $dark: darken(#046B99, 24%);
 $body: $dark;
 $link: $primary;
 $link-hover: $dark;
+
+$background: $off-white;
 @import 'reset.scss';
 @import 'flexboxgrid.scss';
 @import 'fonts.scss';
@@ -34,7 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: $body;
-  background-color: rgb(255, 255, 252);
+  background-color: $background;
 }
 
 a {
@@ -62,11 +67,11 @@ td + td {
 }
 
 .dark {
-  color: white;
+  color: $text-light;
   background: $dark;
 
   table {
-    color: white;
+    color: $text-light;
   }
 
   .h1,
@@ -75,24 +80,24 @@ td + td {
   h1,
   h2,
   h3 {
-    color: white;
+    color: $text-light;
   }
 
   a {
-    color: white;
+    color: $text-light;
 
     &:hover {
-      color: $bright;
+      color: $primary;
     }
   }
 
   .btn {
-    border: 1px solid white;
+    border: 1px solid $text-light;
 
     &:hover {
       color: $dark;
-      border: 1px solid white;
-      background: white;
+      border: 1px solid $text-light;
+      background: $text-light;
     }
   }
 }
@@ -236,16 +241,6 @@ blockquote p {
 
 .fr {
   float: right;
-}
-
-.alert {
-  padding: 1rem;
-
-  p {
-    font-size: 18px;
-    color: white;
-  }
-  background-color: $warning;
 }
 
 .bold {
