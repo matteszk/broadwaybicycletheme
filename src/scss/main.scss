@@ -12,21 +12,27 @@ $link-hover: $dark;
 @import 'typography.scss';
 @import 'margin-padding.scss';
 
+[hidden] {
+  display: none;
+}
+
 img {
   width: 100%;
 }
+
 .max-row {
   max-width: 80em;
   margin: 0 auto;
 }
+
 .align-center {
   justify-content: center;
 }
 
 body {
   font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 2;
+  font-size: 18px;
+  line-height: 1.5;
   color: $body;
   background-color: rgb(255, 255, 252);
 }
@@ -89,6 +95,11 @@ td + td {
       background: white;
     }
   }
+}
+
+button {
+  background: none;
+  border: 0;
 }
 
 .btn {
@@ -162,6 +173,7 @@ ul + p {
 blockquote p {
   font-style: italic;
 }
+
 .pa-grid {
   padding: 1rem 1.5rem;
 }
@@ -342,7 +354,6 @@ blockquote p {
     text-align: center;
   }
 
-
   .gutter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -377,10 +388,11 @@ blockquote p {
   .sm-tc {
     text-align: center;
   }
-.logo {
-  max-height: 400px;
 
-}}
+  .logo {
+    max-height: 400px;
+  }
+}
 @media screen and (max-width: 59.9em) {
   .instagram-image:nth-child(n+7) {
     display: none;
