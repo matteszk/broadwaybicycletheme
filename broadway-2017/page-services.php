@@ -18,12 +18,12 @@ Template Name: Services
       <p>Additionally, you are supporting an environmentally conscious community space that actively promotes diversity in the biking community, values empowerment through education, and supports social justice work in the Boston area.</p>
     </div>
     <div class="md-show col-md-4 col-md-offset-1">
-      <div class="cover image-tall" style="background-image: url(images/tommy1.jpg);"></div>
+      <div class="cover image-tall" style="background-image: url(<?php bloginfo('template_url'); ?>/images/tommy1.jpg);"></div>
     </div>
   </div>
   <div class="row mt2">
     <div class="col-xs-12 col-md-4 col-md-offset-1 md-pr2">
-      <div class="cover image2 lg-image1 bg-bottom" style="background-image: url(images/repair2.jpg);"></div>
+      <div class="cover image2 lg-image1 bg-bottom" style="background-image: url(<?php bloginfo('template_url'); ?>/images/repair2.jpg);"></div>
     </div>
     <div class="col-xs-12 col-md-6 gutter mt1 pb2 md-mt0">
       <h2>Flat Repairs</h2>
@@ -33,7 +33,7 @@ Template Name: Services
   </div>
   <div class="row bottom-xs">
     <div class="col-xs-12 col-md-5 col-md-offset-1 md-pr2 last-md">
-      <div class="cover image2 md-image-tall" style="background-image: url(images/empty_oil.jpg);"></div>
+      <div class="cover image2 md-image-tall" style="background-image: url(<?php bloginfo('template_url'); ?>/images/empty_oil.jpg);"></div>
     </div>
     <div class="gutter mt2 col-xs-12 col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-1">
       <h2>Basic Tune-up</h2>
@@ -59,7 +59,7 @@ Template Name: Services
   </div>
   <div class="row mt3 pt2">
     <div class="md-show col-md-4 col-md-offset-2 pr2">
-      <div class="cover image2 md-image-tall bg-bottom" style="background-image: url(images/wheel-building.jpg);"></div>
+      <div class="cover image2 md-image-tall bg-bottom" style="background-image: url(<?php bloginfo('template_url'); ?>/images/wheel-building.jpg);"></div>
     </div>
     <div class="gutter col-xs-12 col-sm-8 col-md-5 col-lg-4">
       <h2>Custom Wheel Building</h2>

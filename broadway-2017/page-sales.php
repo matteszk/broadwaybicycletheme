@@ -50,7 +50,7 @@ Template Name: Sales
 </div><div class="bg--fixed" style="background-image: url('images/temp-brompton.jpg')"></div>
 <section class="row section-margin">
   <div class="col-xs-3 col-xs-offset-1">
-    <div class="cover image-tall bg-bottom" style="background-image: url(images/brompton-two.jpg);"></div>
+    <div class="cover image-tall bg-bottom" style="background-image: url(<?php bloginfo('template_url'); ?>/images/brompton-two.jpg);"></div>
   </div>
   <div class="col-xs-4 pl2">
     <h2>Boston’s Brompton Specialists</h2>
@@ -73,7 +73,7 @@ Template Name: Sales
     </table>
   </div>
   <div class="col-xs-4 col-xs-offset-1">
-    <div class="cover image1 bg-top" style="background-image: url(images/brompton-duo.jpg);"></div>
+    <div class="cover image1 bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/brompton-duo.jpg);"></div>
   </div>
 </div>
 

@@ -56,7 +56,7 @@ Template Name: Classes
 </section>
 <section class="row section-margin">
   <div class="col-xs-12 col-sm-8">
-    <div class="cover image1" style="background-image:url(images/tools.jpg);"></div>
+    <div class="cover image1" style="background-image:url(<?php bloginfo('template_url'); ?>/images/tools.jpg);"></div>
   </div>
   <div class="col-xs-12 col-md-7">
     <article class="row mt2 gutter">
@@ -128,14 +128,14 @@ Template Name: Classes
       <p>Completing our class series earns you 10% off parts and accessories at Broadway Bicycle <b>for life</b>!</p>
     </aside>
     <aside class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12">
-      <div class="cover image2" style="background-image:url(images/class-women.jpg);"></div>
+      <div class="cover image2" style="background-image:url(<?php bloginfo('template_url'); ?>/images/class-women.jpg);"></div>
       <div class="gutter">
         <h1 class="h3 mt2">FTW Classes</h1>
         <p>FTW (femme, trans, women) classes are identical to the co-ed classes except that it is taught by women/transfolks/femme mechanics in an intentional environment meant to give space to people who want to learn bike mechanics and are not cismen.</p>
       </div>
     </aside>
     <aside class="pt2 pb2 col-sm-8 col-sm-offset-3 col-md-12">
-      <div class="cover image2 mt2" style="background-image:url(images/class-offsite.jpg);"></div>
+      <div class="cover image2 mt2" style="background-image:url(<?php bloginfo('template_url'); ?>/images/class-offsite.jpg);"></div>
       <div class="gutter">
         <h1 class="h3 mt2">Offsite Lessons</h1>
         <p>We also do off site work—Companies, events and organizations can hire us for events or on location trainings and/or tune-ups.</p><a class="btn mt1" href="#">Contact Us</a>

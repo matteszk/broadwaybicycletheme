@@ -54,8 +54,8 @@ Template Name: Stand Rentals
       <p class="footnote pb2"><i class="asterisk--left"></i>Rates are charged in 5 minute increments.</p></p>
     </div>
     <aside class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1 pa0">
-      <div class="cover image2 lg-image2 bg-top" style="background-image: url(images/bettina.jpg);"></div>
-      <div class="cover lg-image-tall mt1 lg-show bg-top" style="background-image: url(images/joe_teaching.jpg);"></div>
+      <div class="cover image2 lg-image2 bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/bettina.jpg);"></div>
+      <div class="cover lg-image-tall mt1 lg-show bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/joe_teaching.jpg);"></div>
       <div class="gutter">
         <h1 class="h3 mt2">Things to know about stand rental </h1>
         <ul class="list--indented">
