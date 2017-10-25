@@ -7,8 +7,12 @@ h1,
 h2,
 h3 {
   font-family: 'plaza_d_otultra', Trebuchet MS, Verdana, Helvetica, sans-serif;
-  line-height: 1.25;
+  line-height: 1.1;
   color: $header;
+}
+
+.accent-font {
+  font-size: 1.25em;
 }
 
 .h1,
