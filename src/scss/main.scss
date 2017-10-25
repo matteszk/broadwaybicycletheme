@@ -198,11 +198,7 @@ blockquote p {
 }
 
 .vh-header {
-  height: 42em;
-}
-
-.vh-header-bottom {
-  margin-bottom: -34em;
+  height: 22em;
 }
 
 .visually-hidden {
@@ -359,6 +355,7 @@ blockquote p {
     margin-right: auto;
   }
 }
+//sm
 @media (--sm-viewport) {
   .sm-db {
     display: block;
@@ -499,6 +496,10 @@ blockquote p {
   height: 60px;
 }
 @media (--md-viewport) {
+
+  .vh-header {
+    height: 42em;
+  }
   .md-db {
     display: block;
   }
