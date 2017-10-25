@@ -37,11 +37,25 @@
 <div id="content">
 <header>
 
-
-<nav>
-<ul id="topNav">
-<li class="home"><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></li>
-
-<?php wp_list_pages('title_li=&exclude=33,34,35,502,572,574,573,575'); ?>
-</ul>
-</nav></header>
+  <div class="main-nav">
+    <div class="main-nav-bg"></div>
+    <button class="menu-toggle fa fa-window-close" id="main-nav-close"></button>
+    <nav>
+      <ul>
+        <li> <a class="accent-font" href="index.html">Broadway Bicycle</a></li>
+      <?php
+        $locations = get_nav_menu_locations();
+        $menu = wp_get_nav_menu_object( 'Menu 2017'  );
+        $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
+         foreach( $menuitems as $item ):
+           echo '<li><a href="' . $item->url . '">' . $item->title . '</a></li>';
+         endforeach;
+      ?>
+      </ul>
+    </nav>
+  </div>
+<!--
+<?php wp_nav_menu( array(
+    'menu'   => 'Menu 2017'
+  ));?> -->
+</header>
