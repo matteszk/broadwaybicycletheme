@@ -13,17 +13,9 @@ Template Name: Classes
     <div class="col-xs-12 col-md-3 md-tr gutter">
       <h2 class="h1 tilt-l">Upcoming <span class="large-db">Classes</span></h2>
     </div>
-    <div class="col-xs-12 col-md-9 row gutter">
-      <article class="mt2 col-xs-12 col-sm-6 col-lg-4">
-        <h2 class="h2">Basic</h2>
-        <ul>
-          <li>Wednesdays June 21–July 26</li>
-          <li>Price: $190.00</li>
-          <li>2 hour classes, 6:30–8:30pm.</li>
-          <li>Available Spaces: X</li>
-        </ul><a class="mt1 btn tilt" href="#">Register</a>
-      </article>
-      <article class="mt2 col-xs-12 col-sm-6 col-lg-4 ">
+    <div class="col-xs-12 col-md-9 gutter">
+      <?php echo do_shortcode('[EVENT_LIST order_by=date(start_date),id]'); ?>
+      <!-- <div class="mt2 col-xs-12 col-sm-6 col-lg-4">
         <h2 class="h2">Wheelbuilding</h2>
         <ul>
           <li>Mondays, June 26–July 24*</li>
@@ -31,26 +23,7 @@ Template Name: Classes
           <li>2 hour classes, 6:30–8:30pm.</li>
           <li>Available Spaces: X</li>
         </ul><a class="mt1 btn tilt" href="#">Register    </a>
-      </article>
-      <article class="mt2 col-xs-12 col-sm-6 col-lg-4">
-        <h2 class="h2">Wheelbuilding (<abbr title="femme, trans, women">FTW</abbr>)</h2>
-        <ul>
-          <li>Mondays, June 26–July 24*</li>
-          <li>Price: $190.00</li>
-          <li>2 hour classes, 6:30–8:30pm.</li>
-          <li>Available Spaces: X</li>
-          <li class="footnote">*No class on July 3rd</li>
-        </ul><a class="mt1 btn tilt" href="#">Register</a>
-      </article>
-      <article class="mt2 col-xs-12 col-sm-6 col-lg-4">
-        <h2 class="h2">Wheelbuilding</h2>
-        <ul>
-          <li>Mondays, June 26–July 24*</li>
-          <li>Price: $190.00</li>
-          <li>2 hour classes, 6:30–8:30pm.</li>
-          <li>Available Spaces: X</li>
-        </ul><a class="mt1 btn tilt" href="#">Register    </a>
-      </article>
+      </div> -->
     </div>
   </div>
 </section>
@@ -71,7 +44,7 @@ Template Name: Classes
         <h2 class="h2">Basic <span class="tilt-r">Class </span> </h2>
       </div>
       <div class="col-xs-12 col-sm-8">
-        <p>The Co-ed Basic Class is an introductory course intended for those with little or no bicycle mechanic experience. Each class lasts two hours and meets once per week for 6 weeks. The class is divided into lecture and hands-on learning where the
+        <p>The Basic Class is an introductory course intended for those with little or no bicycle mechanic experience. Each class lasts two hours and meets once per week for 6 weeks. The class is divided into lecture and hands-on learning where the
           student works on their own bicycle.</p>
         <p>Topics include</p>
         <ul class="list--indented">
