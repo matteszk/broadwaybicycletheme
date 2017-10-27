@@ -1,6 +1,6 @@
 :root {
-  --gutter-width:0;// 1rem;
-  --outer-margin:0;// 2rem;
+  --gutter-width: 0; // 1rem;
+  --outer-margin: 0; // 2rem;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
   --xs-min: 30;
@@ -15,9 +15,9 @@
   --container-md: calc(var(--md-min) + var(--gutter-width));
   --container-lg: calc(var(--lg-min) + var(--gutter-width));
 }
-@custom-media --sm-viewport only screen and (min-width: 42em);//48em);
-@custom-media --md-viewport only screen and (min-width: 60em);//64em);
-@custom-media --lg-viewport only screen and (min-width: 80em);//75em);
+@custom-media --sm-viewport only screen and (min-width: 42em); //48em);
+@custom-media --md-viewport only screen and (min-width: 60em); //64em);
+@custom-media --lg-viewport only screen and (min-width: 80em); //75em);
 
 .container,
 .container-fluid {
@@ -201,7 +201,6 @@
 
 .center-xs {
   justify-content: center;
-  text-align: center;
 }
 
 .end-xs {
@@ -394,7 +393,6 @@
 
   .center-sm {
     justify-content: center;
-    text-align: center;
   }
 
   .end-sm {
@@ -588,7 +586,6 @@
 
   .center-md {
     justify-content: center;
-    text-align: center;
   }
 
   .end-md {
@@ -782,7 +779,6 @@
 
   .center-lg {
     justify-content: center;
-    text-align: center;
   }
 
   .end-lg {

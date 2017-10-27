@@ -21,6 +21,11 @@ $background: $off-white;
   display: none;
 }
 
+.bg-red,
+.bg-warning {
+  background-color: $warning;
+}
+
 img {
   width: 100%;
 }
@@ -331,6 +336,10 @@ blockquote p {
   background-position: right;
 }
 
+.mt0 {
+  margin-top: 0;
+}
+
 .mt1 {
   margin-top: 1rem;
 }
@@ -341,7 +350,7 @@ blockquote p {
 }
 //xs only
 @media screen and (max-width: 41.9em) {
-  .xs-tc {
+  .xs-only-tc {
     text-align: center;
   }
 
@@ -350,7 +359,7 @@ blockquote p {
     padding-right: 1.5rem;
   }
 
-  .xs-center {
+  .xs-only-center {
     margin-left: auto;
     margin-right: auto;
   }
@@ -496,10 +505,14 @@ blockquote p {
   height: 60px;
 }
 @media (--md-viewport) {
-
   .vh-header {
     height: 42em;
   }
+
+  .md-fr {
+    float: right;
+  }
+
   .md-db {
     display: block;
   }
