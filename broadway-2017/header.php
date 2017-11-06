@@ -49,6 +49,6 @@
 <nav>
 <ul id="topNav">
 <li class="home"><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></li>
-  <?php wp_list_pages('title_li=&exclude=33,34,35,502,572,574,573,575,4288,4295,4298,4301,4293'); ?>
+  <?php wp_list_pages('title_li=&exclude=33,34,35,502,572,574,4425,4357,573,575,4288,4295,4298,4301,4293'); ?>
 </ul>
 </nav></header>
