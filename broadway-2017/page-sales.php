@@ -11,9 +11,10 @@ Template Name: Sales
 
 <div class="row relative mt3">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-1 gutter">
-    <h1 class="md-tr"><span class="tilt-l">Sales</span> &amp; <span class="tilt-r">Rentals</span></h1>
-    <p>For decades, we’ve been helping people find the right bike for them.  Whether you’re looking for something simple to get to around town, a world-touring adventure machine, or something in the middle, we’re passionate about getting you on a bike that you’re excited to ride, mile after mile.</p>
-    <p>We keep a wide variety of new and used parts and accessories on hand to get you properly outfitted for whatever two wheeled trip you’ve got planned.</p>
+    <h1 class=""><span class="tilt-l">Sales</span> &amp; <span class="tilt-r">Rentals</span></h1>
+    <div class="">
+      <?php echo get_post_field('post_content', $post->ID) ?>
+    </div>
   </div>
   <ul class="mt2 md-mt0 row col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-lg-5 col-md-offset-1 middle-xs">
     <?php
@@ -44,18 +45,16 @@ Template Name: Sales
 </section>
 <div class="section-margin row">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-2 gutter">
-    <h2>Bike Rentals</h2>
-    <p>Interested in a Brompton but not ready to take the plunge?  Take one on an extended test ride!  We offer rentals by the day or week, so you can really experience how they ride, fold, and make getting around the city so much simpler.  A helmet, lock, and lights are included with each rental bike.  If you decide to purchase after renting, up to a week of your rental fee will be applied to the cost of your new bike!</p>
-    <table>
-      <tr>
-        <td>Daily</td>
-        <td>$30</td>
-      </tr>
-      <tr>
-        <td>Weekly</td>
-        <td>$120</td>
-      </tr>
-    </table>
+    <h2><?php echo get_field('rental_title'); ?></h2>
+    <p><?php echo get_field('rental_description'); ?></p>
+
+    <?php if( have_rows('rental_pricing') ):
+      echo '<table class="mt1">';
+      while ( have_rows('rental_pricing') ) : the_row();
+        echo '<tr class="pt1"><td>' . get_sub_field('label') . '</td><td>' . get_sub_field('price') . '</td></tr>';
+      endwhile;
+      echo '</table>';
+    endif; ?>
   </div>
   <div class="md-show col-md-4 col-md-offset-1">
     <div class="cover image1 bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/brompton-duo.jpg);"></div>

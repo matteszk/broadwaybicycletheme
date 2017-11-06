@@ -38,9 +38,11 @@ Template Name: Homepage
 	<div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 xs-mt1 gutter">
 		<p>At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! </p>
 		<p>No appointment necessary—just bring your bike in and we can give you a free estimate. You can leave the bike with us, or schedule a more convenient time.</p>
-		<div class="xs-only-tc"><a class="btn mt2 mb3" href="services.html">View Services</a></div>
+		<div class="xs-only-tc"><a class="btn mt2 mb3" href="<?php echo get_page_link(4288); ?>">View Services</a></div>
 	</div>
 </div>
+
+
 <div class="row section-margin">
 	<div class="col-xs-12 col-md-7 col-md-offset-2 gutter">
 		<h2 class="h1"><span class="tilt-l">Classes & </span>
@@ -56,7 +58,8 @@ Template Name: Homepage
 			<li><a href="/classes.html#basic">Basic Class</a></li>
 			<li><a href="/classes.html#wheelbuilding">Wheelbuildling Class</a></li>
 			<li><a href="/classes.html#discbrake">Disc Brake Seminar</a></li>
-		</ul><a class="btn mt2 ml05 mb3" href="classes.html">Upcoming Classes</a>
+		</ul>
+		<p><a class="btn mt1 ml05 mb3" href="<?php echo get_page_link(4293) ?>">Upcoming Classes</a></p>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-5 pa0 first-xs last-sm">
 		<div class="cover image1 bg-center" style="background-image: url(<?php bloginfo('template_url'); ?>/images/dien-and-kate-3.jpg);"></div>
@@ -158,7 +161,7 @@ Template Name: Homepage
 		us this year!</p>
 </article>
 
-		<div class="xs-only-tc"><a class="btn mt2" href="stand-rental.html">More Posts</a></div>
+		<div class="xs-only-tc"><a class="btn mt2" href="<?php echo get_page_link(4425) ?>">More Posts</a></div>
 	</div>
 </section>
 <div class="col-xs-12 section-margin"></div>

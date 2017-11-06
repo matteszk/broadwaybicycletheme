@@ -41,30 +41,19 @@ Template Name: Stand Rentals
 <td>12:30&ndash;4:00</td>
 </tr>
 </table>
-      <h2 class="mt2">Rates</h2><table class="table">
-<tr>
-<td>Without Instruction</td>
-<td>$24/hour<i class="asterisk"></i></td>
-</tr>
-<tr>
-<td>With Instruction</td>
-<td>$48/hour<i class="asterisk"></i></td>
-</tr>
-</table>
-      <p class="footnote pb2"><i class="asterisk--left"></i>Rates are charged in 5 minute increments.</p></p>
+      <h2 class="mt2 mb1">Rates</h2>
+      <?php if(  have_rows('stand_rental_rates') ):
+        echo '<table>';
+        while ( have_rows('stand_rental_rates') ) : the_row();
+          echo '<tr><td>' . get_sub_field('type') . '</td><td>' . get_sub_field('price') . '</td</tr>';
+        endwhile;
+        echo '</table>';
+      endif; ?>
+      <p class="mt1 footnote pb2"><span class="asterix">*</span>Rates are charged in 5 minute increments.</p></p>
     </div>
     <aside class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1 pa0">
       <div class="cover image2 lg-image2 bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/bettina.jpg);"></div>
       <div class="cover lg-image-tall mt1 lg-show bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/joe_teaching.jpg);"></div>
-      <div class="gutter">
-        <h1 class="h3 mt2">Things to know about stand rental </h1>
-        <ul class="list--indented">
-          <li>You get access to all the basic tools and the truing stands</li>
-          <li>All rates are charged in 5 minute increments</li>
-          <li>Certain specialty tools are not available and some are but may require supervision at the teaching per-hour rate.</li>
-          <li>Stand rental and instruction is subject to availability of stands and/or mechanics</li>
-        </ul>
-      </div>
     </aside>
   </div>
 </section>

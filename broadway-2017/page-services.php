@@ -39,21 +39,13 @@ Template Name: Services
       <h2>Basic Tune-up</h2>
       <p>A basic tuneup is recommended once a year to maximize your bike’s performance and longevity.</p>
       <p>The price of the basic tuneup includes labor for the following</p>
-      <ul class="list--indented">
-        <li>Grease the seatpost</li>
-        <li>Grease the stem (on threaded stems)</li>
-        <li>Remove and grease the pedal threads</li>
-        <li>Check or adjust the bottom bracket bearing system</li>
-        <li>Adjust the headset bearing system</li>
-        <li>Adjust the hub bearing systems</li>
-        <li>True front and rear wheels</li>
-        <li>Adjustments of the front and rear braking systems</li>
-        <li>Adjustments of the front and rear shift systems</li>
-        <li>Alignment of the derailleur hanger when applicable</li>
-        <li>General tighten and lubrication of the bike</li>
-        <li>Light cleaning of the frame</li>
-        <li>Tire inflation and oil for your chain are always included</li>
-      </ul>
+      <?php if(  have_rows('basic_tune_up') ):
+        echo '<ul class="list--indented">';
+        while ( have_rows('basic_tune_up') ) : the_row();
+          echo '<li>' . get_sub_field('item') . '</li>';
+        endwhile;
+        echo '</ul>';
+      endif; ?>
       <p>Any parts replacement and installation are additional. We provide free estimates, so bring your bike in to learn more about your individual needs.</p>
     </div>
   </div>
