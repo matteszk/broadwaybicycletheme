@@ -11,7 +11,7 @@ Template Name: Homepage
 <![endif]-->
 <header class="relative header">
 	<div class="row center-xs start-sm middle-sm center-sm">
-		<div class="col-xs-12 col-sm-6 col-lg-4 tc gutter mt2 logo"><img src="<?php bloginfo('template_url'); ?>/images/bb_logo-uncompressed.svg" alt="Broadway Bicycle"/></div>
+		<div class="col-xs-12 col-sm-6 col-lg-4 tc gutter mt2"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/bb_logo-uncompressed.svg" alt="Broadway Bicycle"/></div>
 		<div class="col-xs-12 col-sm-5 col-md-4 mt2 sm-tr gutter">
 			<p class="h3">Worker Owned <nobr>Since 1972</nobr></p>
 			<ul class="mt50">
@@ -25,6 +25,23 @@ Template Name: Homepage
 		</div>
 	</div>
 </header>
+
+<?php $args = array(
+	'post_type' => 'bulletin',
+	'post_status' => 'publish',
+	'posts_per_page' => 1 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post(); ?>
+<div class="row pt2 pb2 bulletin">
+	<aside class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
+		<h1 class="h2"><?php echo the_title(); ?></h1>
+		<p><?php echo the_content(); ?></p>
+		<p><?php echo get_field('end'); ?></p>
+	</aside>
+	</div>
+<?php endwhile; ?>
+
+
 <div class="row mt3 md-mt6">
 	<div class="col-xs-12 col-sm-10 col-md-6  col-lg-4 col-lg-offset-1 md-tr mb1 translate-pro gutter">
 		<h2 class="h1 tilt-l">Professional <span class="h2"> Repairs, Builds, <nobr>& Tune–ups</nobr></span></h2>

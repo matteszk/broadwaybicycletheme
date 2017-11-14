@@ -96,7 +96,9 @@ td + td {
     }
   }
 
-  .btn, .btn_event_form_submit, button {
+  .btn,
+  .btn_event_form_submit,
+  button {
     border: 1px solid $text-inverted;
 
     &:hover {
@@ -112,7 +114,13 @@ button {
   border: 0;
 }
 
-.btn, .btn_event_form_submit, button {
+input[type='submit'] {
+  cursor: pointer;
+}
+
+.btn,
+.btn_event_form_submit,
+button {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: none;
@@ -539,7 +547,7 @@ blockquote p {
   }
 
   .translate-pro {
-    transform: translate( 4rem,0);
+    transform: translate(4rem,0);
   }
 
   .menu-toggle {
@@ -577,13 +585,24 @@ blockquote p {
   .instagram-image:nth-child(n+9) {
     display: none;
   }
+
+  .bulletin {
+    margin-bottom: -154px;
+  }
 }
+//max large
 @media screen and (max-width: 79.9em) {
   .lg-show {
     display: none;
   }
 }
 @media (--lg-viewport) {
+  .bulletin {
+    margin-top: -72px;
+    margin-bottom: -154px;
+    transform: translateX(140px);
+  }
+
   .lg-tr {
     text-align: right;
   }

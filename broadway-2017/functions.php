@@ -93,10 +93,23 @@ function remove_menus()
             $value = explode(' ',$menu[key($menu)][0]);
             if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){unset($menu[key($menu)]);}
         }// end while
-
-
     }// end if
 }
+
+function create_post_type() {
+  register_post_type( 'bulletin',
+    array(
+      'labels' => array(
+        'name' => __( 'Bulletins' ),
+        'singular_name' => __( 'Bulletin' )
+      ),
+      'public' => true,
+      'rewrite' => array( 'slug' => 'bulletin' ),
+    )
+  );
+}
+
+add_action( 'init', 'create_post_type' );
 add_action('admin_menu', 'remove_menus');
 
 
