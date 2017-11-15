@@ -11,8 +11,8 @@ Template Name: Homepage
 <![endif]-->
 <header class="relative header">
 	<div class="row center-xs start-sm middle-sm center-sm">
-		<div class="col-xs-12 col-sm-6 col-lg-4 tc gutter mt2"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/bb_logo-uncompressed.svg" alt="Broadway Bicycle"/></div>
-		<div class="col-xs-12 col-sm-5 col-md-4 mt2 sm-tr gutter">
+		<div class="col-xs-12 col-sm-5 col-md-6 col-lg-4 tc gutter mt2"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/bb_logo-uncompressed.svg" alt="Broadway Bicycle"/></div>
+		<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4 mt2 tc sm-tr gutter">
 			<p class="h3">Worker Owned <nobr>Since 1972</nobr></p>
 			<ul class="mt50">
 				<li><a href="mailto:broadway@broadwaybicycleschool.com">broadway@broadwaybicycleschool.com</a></li>
