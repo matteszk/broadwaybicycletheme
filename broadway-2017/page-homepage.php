@@ -35,8 +35,13 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <div class="row pt2 pb2 bulletin">
 	<aside class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
 		<h1 class="h2"><?php echo the_title(); ?></h1>
-		<p><?php echo the_content(); ?></p>
-		<p><?php echo get_field('end'); ?></p>
+		<?php
+		$end =  strtotime(get_field('end'));
+		$endToday = strtotime('today midnight');
+		if( $end <= $endToday ) {
+			echo the_content();
+		}
+		?>
 	</aside>
 	</div>
 <?php endwhile; wp_reset_query(); ?>
