@@ -174,14 +174,20 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 	<div class="col-xs-0 col-sm-2"></div>
 	<div class="col-xs-12 col-md-8 col-lg-5 gutter">
 		<h2 class="h1"><span class="tilt-l">Latest News</span></h2><article class="">
-	<h2>Pride Cookie Sale this Saturday, June 10th!</h2>
-	<p class="footnote">Posted June 9th, 2017</p>
-	<p>We are so proud to support and celebrate our LGBTQIA community members! This weekend is Pride Weekend in Boston, and to give back to the community we are hosting a cookie sale all day on Saturday June 10th at the shop. We’re open from 10am to 6pm, and
-		all cookies must go!</p>
-	<p>Cookies will be donated by local bakeries and baked by workers at Broadway, and the proceeds from each cookie will be donated to <a href="https://www.facebook.com/BostonGLASS.JRI/">Boston GLASS</a> (Gay and Lesbian Adolescent Social Service) which provides counseling and support for queer youth in Boston.
-		Last year, we raised enough money to buy two of their youth bikes complete with helmets, locks, and lights. All that thanks to the generosity and support of our incredible community members giving back. Come back again on Saturday to celebrate with
-		us this year!</p>
-</article>
+		<?php
+		$args = array(
+	    'posts_per_page' => 1,
+	    'post_type' => 'post'
+		);
+		$loop = new WP_Query( $args );
+		while ( $loop->have_posts() ) : $loop->the_post(); ?>
+		<article>
+			<h1 class="h2"><?php echo the_title(); ?></h1>
+			<p class="footnote">Posted June 9th, 2017</p>
+			<?php echo the_content(); ?>
+		</article>
+
+		<?php endwhile; wp_reset_query(); ?>
 
 		<div class="xs-only-tc"><a class="btn mt2" href="<?php echo get_page_link(4425) ?>">More Posts</a></div>
 	</div>
