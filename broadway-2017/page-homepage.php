@@ -39,7 +39,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<p><?php echo get_field('end'); ?></p>
 	</aside>
 	</div>
-<?php endwhile; ?>
+<?php endwhile; wp_reset_query(); ?>
 
 
 <div class="row mt3 md-mt6">
