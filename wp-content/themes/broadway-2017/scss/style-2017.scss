@@ -377,12 +377,13 @@ blockquote p {
   padding-right: 1rem;
 }
 
-.md-show {
+.main-nav-spacer {
   display: block;
+  height: 60px;
 }
 
-.lg-show {
-  display: block;
+.bulletin {
+  margin-bottom: -20px;
 }
 //xs only
 @media screen and (max-width: 41.9em) {
@@ -390,14 +391,18 @@ blockquote p {
     text-align: center;
   }
 
-  .gutter {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .xs-only-center {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sm-show {
+    display: none;
+  }
+
+  .gutter {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 //sm
@@ -430,6 +435,7 @@ blockquote p {
     max-height: 400px;
   }
 }
+//max md
 @media screen and (max-width: 59.9em) {
   .md-show {
     display: none;
@@ -531,50 +537,37 @@ blockquote p {
     }
   }
 }
-
-.main-nav-spacer {
-  display: block;
-  height: 60px;
-}
-
-.bulletin {
-  margin-bottom: -20px;
-}
 @media (--md-viewport) {
-  .md-image-tall {
-    height: 32em;
-  }
-
-  .vh-header {
-    height: 42em;
+  .md-db {
+    display: block;
   }
 
   .md-fr {
     float: right;
   }
 
-  .md-db {
-    display: block;
-  }
-
-  .first-aside {
-    margin-top: 8rem;
-  }
-
   .md-hide {
     display: none;
-  }
-
-  .section-margin {
-    margin-top: 6rem;
   }
 
   .md-tr {
     text-align: right;
   }
 
-  .translate-pro {
-    transform: translate(4rem,0);
+  .md-mt0 {
+    margin-top: 0;
+  }
+
+  .md-image-tall {
+    height: 32em;
+  }
+
+  .bulletin {
+    margin-bottom: -80px;
+  }
+
+  .first-aside {
+    margin-top: 8rem;
   }
 
   .menu-toggle {
@@ -605,23 +598,26 @@ blockquote p {
     height: 80px;
   }
 
-  .md-mt0 {
-    margin-top: 0;
+  .section-margin {
+    margin-top: 6rem;
   }
 
-  .bulletin {
-    margin-bottom: -80px;
+  .translate-pro {
+    transform: translate(4rem,0);
+  }
+
+  .vh-header {
+    height: 42em;
   }
 }
-//max large
-@media screen and (max-width: 79.9em) {}
-@media (--lg-viewport) {
-  .bulletin {
-    margin-top: -72px;
-    margin-bottom: -144px;
-    transform: translateX(140px);
+//max lg
+@media screen and (max-width: 79.9em) {
+  .lg-show {
+    display: none;
   }
-
+}
+//lg
+@media (--lg-viewport) {
   .lg-tr {
     text-align: right;
   }
@@ -644,6 +640,12 @@ blockquote p {
 
   .lg-mt0 {
     margin-top: 0;
+  }
+
+  .bulletin {
+    margin-top: -72px;
+    margin-bottom: -144px;
+    transform: translateX(140px);
   }
 }
 //override instagram plugin
