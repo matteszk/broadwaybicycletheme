@@ -17,9 +17,7 @@ Template Name: Sales
     </div>
   </div>
   <ul class="mt2 md-mt0 row col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-lg-5 col-md-offset-1 middle-xs">
-    <?php
-    if( have_rows('brands') ):
-      while ( have_rows('brands') ) : the_row();
+    <?php if( have_rows('brands') ): while ( have_rows('brands') ) : the_row();
         $image = get_sub_field('logo');
         ?>
         <li class="pa-grid col-xs-6 col-sm-4">
@@ -28,10 +26,7 @@ Template Name: Sales
           </a>
         </li>
         <?php
-      endwhile;
-    else :
-      // no rows found
-    endif; ?>
+    endwhile; endif; ?>
   </ul>
 </div><div class="bg--fixed" style="background-image: url('<?php bloginfo('template_url'); ?>/images/temp-brompton.jpg')"></div>
 <section class="row section-margin">

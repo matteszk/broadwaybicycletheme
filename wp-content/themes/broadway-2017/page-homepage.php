@@ -100,10 +100,11 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <section>
 	<div class="row mt3">
 		<div class="col-xs-12 col-md-3 col-md-offset-1 md-tr gutter">
-			<h1><span class="tilt-l md-db"> Worker</span>
-<span class="tirl-r"> Owned</span>
-<span class="tilt-r"> Since</span>
-<span class="tilt-r md-db"> 1972</span>
+			<h1>
+				<span class="tilt-l md-db"> Worker</span>
+				<span class="tirl-r"> Owned</span>
+				<span class="tilt-r"> Since</span>
+				<span class="tilt-r md-db"> 1972</span>
 			</h1>
 		</div>
 		<div class="col-xs-12 col-md-6 gutter">
@@ -116,19 +117,9 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 col-md-offset-2 gutter">
 			<p><span class="h3">Broadway supports,</span> partners with, sponsors, and donates to local organizations and events including:</p>
 			<ul class="list--indented gutter">
-				<li>Hosting monthly Femmechanics free open shop Grrrease Time to <abbr title="femme/trans/women">FTW</abbr> cyclists and offers 10% Discount to participants. </li>
-				<li>U.S. Federation of Worker Cooperative</li>
-				<li>Greater Boston Chamber of Cooperatives</li>
-				<li>Boston Center for Community Ownership</li>
-				<li>Broadway’s Bike to Work Week Pancake Breakfast for Bay State Bike Week.</li>
-				<li>Bikes Not Bombs Bike-A-Thon</li>
-				<li>Boston Cyclist Union annual fundraiser.</li>
-				<li>MassBike annual silent auction.</li>
-				<li>Red Bones annual Bike Party raffle for MassBike and NEMBA </li>
-				<li>10% Discount to MassBike, Boston Cyclist Union and Charles River Wheelers members.  </li>
-				<li>Monthly discounts during Green Street Initiative Walk/Ride Days</li>
-				<li>10% Discount to Brattle Theater members</li>
-				<li>Celebrating Gay Pride Week by hosting a bake sale with all proceeds going to Boston GLASS</li>
+				<?php if( have_rows('broadway_supports') ): while ( have_rows('broadway_supports') ) : the_row(); ?>
+					<li><?php echo get_sub_field('item'); ?></li>
+				<?php endwhile; endif; ?>
 			</ul>
 		</div>
 		<div class="col-sm-3">
