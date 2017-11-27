@@ -1,0 +1,25 @@
+$wp_image_folder:'http://broadwaybicycleschool.com/wp-content/themes/broadway-2017/images/';
+
+@mixin background-2x($path, $ext: "png", $w: auto, $h: auto, $pos: left top, $repeat: no-repeat) {
+  $at1x_path: "#{$wp_image_folder}#{$path}.#{$ext}";
+  $at2x_path: "#{$wp_image_folder}#{$path}@2x.#{$ext}";
+  background-image: url("#{$at1x_path}");
+  // background-size: $w $h;
+  @media all and (-webkit-min-device-pixel-ratio : 1.5), all and (-o-min-device-pixel-ratio: 3/2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    background-image: url("#{$at2x_path}");
+  }
+}
+
+.brompton-2 { @include background-2x('brompton-2', 'jpg'); }
+.dog-jar { @include background-2x('dog-jar', 'jpg'); }
+.door { @include background-2x('door', 'jpg'); }
+.interior { @include background-2x('interior', 'jpg'); }
+.storefront { @include background-2x('storefront', 'jpg'); }
+.teaching-1 { @include background-2x('teaching-1', 'jpg'); }
+.teaching-2 { @include background-2x('teaching-2', 'jpg'); }
+.tire-repair { @include background-2x('tire-repair', 'jpg'); }
+.tools { @include background-2x('tools', 'jpg'); }
+.working-1 { @include background-2x('working-1', 'jpg');}
+.working-2 { @include background-2x('working-2', 'jpg');}
+.working-2 { @include background-2x('working-2', 'jpg');}
+.working-2 { @include background-2x('working-3', 'jpg');}
