@@ -87,12 +87,12 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<div class="cover image1 bg-center" style="background-image: url(<?php bloginfo('template_url'); ?>/images/dien-and-kate-3.jpg);"></div>
 	</div>
 </div>
-<div class="row section-margin">
-	<div class="col-xs-12 col-md-9 col-md-offset-1"><a class="btn ml05 instagram" href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/"><i class="fa fa-instagram"> </i><span class="visually-hidden">instagram</span></a>
-		<p class="dib pl50">Follow Us</p>
+<div class="row mt1">
+	<div class="col-xs-12 col-md-9 col-md-offset-1">
+		<?php echo do_shortcode('[instagram-feed showheader=false showbutton=false]'); ?>
 	</div>
 </div>
-<div class="row mt1">
+<!-- <div class="row mt1">
 	<div class="col-xs-12 col-md-9 col-md-offset-1">
 		<div class="row">
 			<div class="col-xs-4 col-md-3 instagram-image">
@@ -121,7 +121,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <section>
 	<div class="row mt3 midle">
 		<div class="col-xs-12 col-md-3 col-md-offset-1 md-tr gutter">
@@ -173,7 +173,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <section class="row mt2">
 	<div class="col-xs-0 col-sm-2"></div>
 	<div class="col-xs-12 col-md-8 col-lg-5 gutter">
-		<h2 class="h1"><span class="tilt-l">Latest News</span></h2><article class="">
+		<h2 class="h1"><span class="tilt-l">Latest Post</span></h2><article class="">
 		<?php
 		$args = array(
 	    'posts_per_page' => 1,
