@@ -26,14 +26,12 @@ Template Name: Homepage
 	</div>
 </header>
 
-<?php $args = array(
-	'post_type' => 'bulletin',
-	'post_status' => 'publish',
-	'posts_per_page' => 1 );
+<?php
+$args = array( 'post_type' => 'bulletin', 'post_status' => 'publish', 'posts_per_page' => 1 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
-<div class="row pt2 pb2 bulletin">
-	<aside class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
+<aside class="row pt2 pb2 bulletin">
+	<div class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
 		<h1 class="h2"><?php echo the_title(); ?></h1>
 		<?php
 		$end =  strtotime(get_field('end'));
@@ -42,8 +40,8 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			echo the_content();
 		}
 		?>
-	</aside>
 	</div>
+</aside>
 <?php endwhile; wp_reset_query(); ?>
 
 
@@ -87,43 +85,20 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<div class="cover image1 bg-center" style="background-image: url(<?php bloginfo('template_url'); ?>/images/dien-and-kate-3.jpg);"></div>
 	</div>
 </div>
-<div class="row mt1">
-	<div class="col-xs-12 col-md-9 col-md-offset-1">
-		<?php echo do_shortcode('[instagram-feed showheader=false showbutton=false]'); ?>
+
+<aside>
+	<div class="row mt1">
+		<?php echo do_shortcode('[instagram-feed showheader=false]'); ?>
 	</div>
-</div>
-<!-- <div class="row mt1">
-	<div class="col-xs-12 col-md-9 col-md-offset-1">
-		<div class="row">
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta1.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta2.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta3.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta4.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta5.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta6.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta7.jpg);"></div>
-			</div>
-			<div class="col-xs-4 col-md-3 instagram-image">
-				<div class="cover square" style="background-image: url(<?php bloginfo('template_url'); ?>/images/insta8.jpg);"></div>
-			</div>
+	<div class="row mt1">
+		<div class="col-xs-12 col-md-3 col-md-offset-1 md-tr gutter">
+			<a class="btn" href="https://www.instagram.com/broadwaybikes/"><i class="fa fa-instagram"></i>&nbsp;Follow Us</a>
 		</div>
 	</div>
-</div> -->
+</aside>
+
 <section>
-	<div class="row mt3 midle">
+	<div class="row mt3">
 		<div class="col-xs-12 col-md-3 col-md-offset-1 md-tr gutter">
 			<h1><span class="tilt-l md-db"> Worker</span>
 <span class="tirl-r"> Owned</span>

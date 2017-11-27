@@ -124,7 +124,6 @@ input[type='submit'] {
   cursor: pointer;
 }
 
-
 .btn,
 .btn_event_form_submit,
 .sbi_follow_btn a,
@@ -146,19 +145,16 @@ button {
     color: white;
   }
 }
-
 //override instagram plugin styles
+
 .sbi_follow_btn a {
   display: inline-block !important;
   font-size: 1.5rem !important;
   border: 2px solid $header !important;
+
   .fa {
     font-size: inherit !important;
   }
-}
-
-.instagram-image {
-  padding: 0.5rem;
 }
 
 em {
@@ -426,10 +422,6 @@ blockquote p {
   }
 }
 @media screen and (max-width: 59.9em) {
-  .instagram-image:nth-child(n+7) {
-    display: none;
-  }
-
   .md-show {
     display: none;
   }
@@ -535,6 +527,10 @@ blockquote p {
   display: block;
   height: 60px;
 }
+
+.bulletin {
+  margin-bottom: -20px;
+}
 @media (--md-viewport) {
   .vh-header {
     height: 42em;
@@ -600,10 +596,6 @@ blockquote p {
     margin-top: 0;
   }
 
-  .instagram-image:nth-child(n+9) {
-    display: none;
-  }
-
   .bulletin {
     margin-bottom: -80px;
   }
@@ -643,5 +635,20 @@ blockquote p {
 
   .lg-mt0 {
     margin-top: 0;
+  }
+}
+
+//override instagram plugin
+#sbi_load {
+display: none !important;
+}
+@media (max-width: 480px) {
+  #sbi_images .sbi_item:nth-child(n+4) {
+    display: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #sbi_images .sbi_item:nth-child(n+5) {
+    display: none !important;
   }
 }

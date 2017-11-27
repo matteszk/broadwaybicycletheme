@@ -4,7 +4,7 @@
 	  <div class="row max-row pt2 pb3 gutter xs-only-tc">
 	    <div class="col-xs-12 col-sm-6 col-md-4 mt1">
 	      <ul class="social-links">
-	        <li><a class="btn instagram" href="https://www.instagram.com/explore/locations/4417509/broadway-bicycle-school/"><i class="fa fa-instagram"> </i><span class="visually-hidden">Instagram</span></a></li>
+	        <li><a class="btn instagram" href="https://www.instagram.com/broadwaybikes/"><i class="fa fa-instagram"> </i><span class="visually-hidden">Instagram</span></a></li>
 	        <li class="ml1"><a class="btn facebook" href="https://www.facebook.com/broadwaybicycleschool/"><i class="fa fa-facebook"></i><span class="visually-hidden">Facebook</span></a></li>
 	        <li class="ml1"><a class="btn  yelp" href="https://www.yelp.com/biz/broadway-bicycle-school-cambridge"><i class="fa fa-yelp"></i><span class="visually-hidden">Yelp</span></a></li>
 	      </ul>
