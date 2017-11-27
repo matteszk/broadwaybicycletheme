@@ -42,15 +42,15 @@
     <button class="menu-toggle fa fa-window-close" id="main-nav-close"></button>
     <nav>
       <ul>
-        <li> <a class="accent-font" href="index.html">Broadway Bicycle</a></li>
-      <?php
-        $locations = get_nav_menu_locations();
-        $menu = wp_get_nav_menu_object( 'Menu 2017'  );
-        $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
-         foreach( $menuitems as $item ):
-           echo '<li><a href="' . $item->url . '">' . $item->title . '</a></li>';
-         endforeach;
-      ?>
+        <li><a class="accent-font" href="http://broadwaybicycleschool.com/homepage/">Broadway Bicycle</a></li>
+        <?php
+          $locations = get_nav_menu_locations();
+          $menu = wp_get_nav_menu_object( 'Menu 2017'  );
+          $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
+           foreach( $menuitems as $item ):
+             echo '<li><a href="' . $item->url . '">' . $item->title . '</a></li>';
+           endforeach;
+        ?>
       </ul>
     </nav>
   </div>
