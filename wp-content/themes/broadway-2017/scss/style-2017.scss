@@ -22,6 +22,7 @@ $background: $off-white;
 }
 @import 'typography.scss';
 @import 'margin-padding.scss';
+@import 'images.scss';
 /* ~~~~ */
 [hidden] {
   display: none;
@@ -375,6 +376,14 @@ blockquote p {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.md-show {
+  display: block;
+}
+
+.lg-show {
+  display: block;
+}
 //xs only
 @media screen and (max-width: 41.9em) {
   .xs-only-tc {
@@ -397,12 +406,12 @@ blockquote p {
     display: block;
   }
 
-  .sm-mt0 {
-    margin-top: 0;
+  .sm-image-tall {
+    height: 32em;
   }
 
-  .sm-show {
-    display: none;
+  .sm-mt0 {
+    margin-top: 0;
   }
 
   .sm-fr {
@@ -532,6 +541,10 @@ blockquote p {
   margin-bottom: -20px;
 }
 @media (--md-viewport) {
+  .md-image-tall {
+    height: 32em;
+  }
+
   .vh-header {
     height: 42em;
   }
@@ -601,11 +614,7 @@ blockquote p {
   }
 }
 //max large
-@media screen and (max-width: 79.9em) {
-  .lg-show {
-    display: none;
-  }
-}
+@media screen and (max-width: 79.9em) {}
 @media (--lg-viewport) {
   .bulletin {
     margin-top: -72px;
@@ -637,10 +646,10 @@ blockquote p {
     margin-top: 0;
   }
 }
-
 //override instagram plugin
+
 #sbi_load {
-display: none !important;
+  display: none !important;
 }
 @media (max-width: 480px) {
   #sbi_images .sbi_item:nth-child(n+4) {

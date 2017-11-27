@@ -52,8 +52,8 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 </div>
 <div class="row">
 	<div class="col-xs-12 col-sm-5 col-md-5">
-		<div class="cover image1 bg-bottom" style="background-image: url(<?php bloginfo('template_url'); ?>/images/kate.jpg);"></div>
-		<div class="cover image1 bg-center mt1" style="background-image: url(<?php bloginfo('template_url'); ?>/images/repair-v.jpg);"></div>
+		<div class="cover image1 bg-bottom working-1"></div>
+		<div class="cover image1 bg-center mt1 working-2"></div>
 	</div>
 	<div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 xs-mt1 gutter">
 		<p>At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! </p>
@@ -82,7 +82,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		<p><a class="btn mt1 ml05 mb3" href="<?php echo get_page_link(4293) ?>">Upcoming Classes</a></p>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-5 pa0 first-xs last-sm">
-		<div class="cover image1 bg-center" style="background-image: url(<?php bloginfo('template_url'); ?>/images/dien-and-kate-3.jpg);"></div>
+		<div class="cover image1 bg-center teaching-1"></div>
 	</div>
 </div>
 
@@ -123,8 +123,8 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			</ul>
 		</div>
 		<div class="col-sm-3">
-			<div class="cover image2 md-show" style="background-image: url(<?php bloginfo('template_url'); ?>/images/door.jpg);"></div>
-			<div class="cover image2 bg-center mt1 md-show" style="background-image: url(<?php bloginfo('template_url'); ?>/images/dogjar.jpg);"></div>
+			<div class="cover image2 md-show door"></div>
+			<div class="cover image2 bg-center mt1 md-show dog-jar"></div>
 		</div>
 	</div>
 	<div class="row mt3 center-xs">
@@ -134,7 +134,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 	</div>
 </section>
 <div class="section-margin">
-	<div class="cover col-md-8 image1 md-hide" style="background-image: url(<?php bloginfo('template_url'); ?>/images/frames.jpg);"></div>
+	<div class="cover col-md-8 image1 md-hide interior"></div>
 </div>
 <section class="row mt2">
 	<div class="col-xs-0 col-sm-2"></div>

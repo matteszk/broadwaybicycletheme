@@ -18,12 +18,12 @@ Template Name: Services
       <p>Additionally, you are supporting an environmentally conscious community space that actively promotes diversity in the biking community, values empowerment through education, and supports social justice work in the Boston area.</p>
     </div>
     <div class="md-show col-md-4 col-md-offset-1">
-      <div class="cover image-tall" style="background-image: url(<?php bloginfo('template_url'); ?>/images/tommy1.jpg);"></div>
+      <div class="cover image-tall working-3"></div>
     </div>
   </div>
   <div class="row mt2">
     <div class="col-xs-12 col-md-4 col-md-offset-1 md-pr2">
-      <div class="cover image2 lg-image1 bg-bottom" style="background-image: url(<?php bloginfo('template_url'); ?>/images/repair2.jpg);"></div>
+      <div class="cover image2 lg-image1 bg-bottom tire-repair"></div>
     </div>
     <div class="col-xs-12 col-md-6 gutter mt1 pb2 md-mt0">
       <h2>Flat Repairs</h2>
