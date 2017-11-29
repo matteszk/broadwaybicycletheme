@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-2017.css">
 
-<script src="<?php bloginfo('template_url'); ?>/js/main.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/main-dist.js"></script>
 <!-- <script src="/js/cufon-yui.js" type="text/javascript"></script>
 <script src="/js/behaviors.js" type="text/javascript"></script> -->
 

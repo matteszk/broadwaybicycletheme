@@ -29,7 +29,7 @@ Template Name: Classes
 </section>
 <section class="row section-margin">
   <div class="col-xs-12 col-sm-8">
-    <div class="cover image1" style="background-image:url(<?php bloginfo('template_url'); ?>/images/tools.jpg);"></div>
+    <div class="cover image1 unveil" data-class="tools"></div>
   </div>
   <div class="col-xs-12 col-md-7">
     <article class="row mt2 gutter">

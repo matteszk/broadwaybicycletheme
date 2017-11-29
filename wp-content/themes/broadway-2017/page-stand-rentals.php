@@ -53,7 +53,7 @@ Template Name: Stand Rentals
     </div>
     <aside class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1 pa0">
       <div class="cover image2 lg-image2 bg-top" style="background-image: url(<?php bloginfo('template_url'); ?>/images/bettina.jpg);"></div>
-      <div class="cover image-tall mt1 sm-show bg-top teaching-2"></div>
+      <div class="cover image-tall mt1 sm-show bg-top unveil" data-class="teaching-2"></div>
     </aside>
   </div>
 </section>

@@ -6,7 +6,7 @@ Template Name: Sales
 <?php get_header('2017'); ?>
 
 <div class="relative vh-header">
-  <div class="absolute bg--fixed cover h100 bg-bottom storefront"></div>
+  <div class="absolute bg--fixed cover h100 bg-bottom unveil" data-class="storefront"></div>
 </div>
 
 <div class="row relative mt3">
@@ -31,7 +31,7 @@ Template Name: Sales
 </div><div class="bg--fixed" style="background-image: url('<?php bloginfo('template_url'); ?>/images/temp-brompton.jpg')"></div>
 <section class="row section-margin">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-1">
-    <div class="cover image-tall bg-bottom brompton-2"></div>
+    <div class="cover image-tall bg-bottom unveil" data-class="brompton-2"></div>
   </div>
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 gutter mt2 md-mt0">
     <h2>Boston’s Brompton Specialists</h2>
