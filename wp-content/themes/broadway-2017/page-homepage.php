@@ -143,7 +143,7 @@ while ( $loop->have_posts() ) :
 <section class="row mt2">
 	<div class="col-xs-0 col-sm-2"></div>
 	<div class="col-xs-12 col-md-8 col-lg-5 gutter">
-		<h2 class="h1"><span class="tilt-l">Latest Post</span></h2>
+		<h2 class="h1"><span class="tilt-l">Latest News</span></h2>
 		<?php
 		$args = array(
 	    'posts_per_page' => 1,
