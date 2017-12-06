@@ -5,7 +5,8 @@ Template Name: Sales
 ?>
 <?php get_header(); ?>
 
-<div class="relative vh-header">
+<div class="main-nav-spacer lg-hide"></div>
+<div class="relative vh-header lg-show">
   <div class="absolute bg--fixed cover h100 bg-bottom unveil" data-class="storefront"></div>
 </div>
 
