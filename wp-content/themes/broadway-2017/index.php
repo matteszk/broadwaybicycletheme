@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-<div class="row center-xs" style="padding-top: 5rem;">
+<div class="main-nav-spacer"></div>
+<div class="row center-xs">
 	<div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 gutter">
 		<!--articles-->
 		<h1><span class="tilt-l">Broadway</span> <span class="tilt-r">Bike</span> Blog</h1>
@@ -23,7 +23,7 @@
 		endif; ?>
 	</div>
 	<div class="col-xs-12 col-sm-2 col-md-2 col-lg-3 gutter">
-		<?php // get_sidebar(); ?>
+		<?php get_sidebar(); ?>
 	</div>
 </div>
 
