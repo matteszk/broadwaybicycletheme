@@ -33,7 +33,6 @@
 
 <?php wp_footer(); ?>
 </div>
-<script type="text/javascript"> Cufon.now(); </script>
 
 
 
