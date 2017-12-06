@@ -13,7 +13,7 @@ Template Name: Homepage
 	<div class="row center-xs start-sm middle-sm center-sm">
 		<div class="col-xs-12 col-sm-5 col-md-6 col-lg-4 tc gutter mt2"><img class="logo" src="<?php bloginfo('template_url'); ?>/images/bb_logo-uncompressed.svg" alt="Broadway Bicycle"/></div>
 		<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4 mt2 tc sm-tr gutter">
-			<p class="h3">Worker Owned <nobr>Since 1972</nobr></p>
+			<p class="h3 tight">Worker Owned <nobr>Since 1972</nobr></p>
 			<ul class="mt50">
 				<li><a href="mailto:broadway@broadwaybicycleschool.com">broadway@broadwaybicycleschool.com</a></li>
 				<li><a href="https://www.google.com/maps/place/Broadway+Bicycle+School/@42.3704856,-71.1056672,16.92z/data=!4m5!3m4!1s0x0:0x4363b979c482338e!8m2!3d42.3704722!4d-71.1035003">351 Broadway, Cambridge MA 02139</a></li>
@@ -53,7 +53,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <div class="row">
 	<div class="col-xs-12 col-sm-5 col-md-5">
 		<div class="cover image1 bg-center mt1 unveil" data-class="working-1"></div>
-		<div class="cover image2 bg-center mt1 unveil" data-class="working-2"></div>
+		<div class="md-show cover image2 bg-center mt1 unveil" data-class="working-2"></div>
 	</div>
 	<div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 xs-mt1 gutter">
 		<p>At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! </p>
