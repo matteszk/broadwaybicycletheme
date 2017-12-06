@@ -3,7 +3,7 @@
 Template Name: Sales
 */
 ?>
-<?php get_header('2017'); ?>
+<?php get_header(); ?>
 
 <div class="relative vh-header">
   <div class="absolute bg--fixed cover h100 bg-bottom unveil" data-class="storefront"></div>
@@ -56,4 +56,4 @@ Template Name: Sales
   </div>
 </div>
 
-<?php get_footer('2017'); ?>
+<?php get_footer(); ?>

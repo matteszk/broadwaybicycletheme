@@ -3,7 +3,7 @@
 Template Name: Registration 2017
 */
 ?>
-<?php get_header('2017'); ?>
+<?php get_header(); ?>
 
 <div class="main-nav-spacer">
 </div>
@@ -21,4 +21,4 @@ Template Name: Registration 2017
   </div>
 </section>
 <section class="row section-margin">
-<?php get_footer('2017'); ?>
+<?php get_footer(); ?>

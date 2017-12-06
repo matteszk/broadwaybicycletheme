@@ -1,6 +1,6 @@
-		<aside id="sideBar">
-        
-    
+<aside id="sideBar">
+
+
 <!--<h3>Seasonal Updates</h3>-->
 <section>
 
@@ -17,29 +17,29 @@
 
 					<h3>H5 Template Theme</h3>
                     <section>
-					<p>H5 is a theme template designed with HTML 5 that you can use for your site <em>right now</em>. 
-					It contains all the template files required to customize your own theme quickly and easily. 
+					<p>H5 is a theme template designed with HTML 5 that you can use for your site <em>right now</em>.
+					It contains all the template files required to customize your own theme quickly and easily.
 					H5 looks and works great in all modern browsers and is completely valid HTML 5 and CSS.</p>
                     </section>
-				
-				
+
+
 					<h3>Search the Site</h3>
 					<?php get_search_form(); ?>
 
-				
+
 
 				<?php wp_list_categories('show_count=1&title_li=<h2>Categories</h2>'); ?>
 
-				
+
 					<h3>Archives</h3>
 					 <section>
 						<?php wp_get_archives('type=monthly'); ?>
-					 
-				
+
+
 
 				<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ) { ?>
 
-				
+
 					<?php if (is_404()) { ?>
 					<p>Please contact us or try again with a new search using the form above.</p>
 
@@ -69,7 +69,7 @@
 				<?php if (is_home() || is_page() || is_single()) { ?>
 				<?php wp_list_bookmarks(); ?>
 
-				
+
 					<h3>Meta</h3>
 					<section>
 						<?php wp_register(); ?>

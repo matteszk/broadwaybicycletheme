@@ -13,14 +13,21 @@
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_head(); ?>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-<script src="<?php bloginfo('template_url'); ?>/js/main-dist.js"></script>
-<!-- <script src="/js/cufon-yui.js" type="text/javascript"></script>
-<script src="/js/behaviors.js" type="text/javascript"></script> -->
+<link rel="stylesheet" href="/wp-content/themes/broadway/style.css" type="text/css" media="screen, projection" />
+<!--[if IE]>
+<link rel="stylesheet" href="/wp-content/themes/broadway/ie.css" type="text/css" media="screen, projection" />
+<![endif]-->
 
-<script type="text/javascript">
+<script src="/js/cufon-yui.js" type="text/javascript"></script>
+ <script src="/js/behaviors.js" type="text/javascript"></script>
+
+
+ <script type="text/javascript">
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-23039201-1']);
   _gaq.push(['_trackPageview']);
@@ -30,6 +37,7 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
 </script>
 
 </head>
@@ -37,25 +45,10 @@
 <div id="content">
 <header>
 
-  <div class="main-nav">
-    <div class="main-nav-bg"></div>
-    <button class="menu-toggle fa fa-window-close" id="main-nav-close"></button>
-    <nav>
-      <ul>
-        <li><a class="accent-font" href="http://broadwaybicycleschool.com/homepage/">Broadway Bicycle</a></li>
-        <?php
-          $locations = get_nav_menu_locations();
-          $menu = wp_get_nav_menu_object( 'Menu 2017'  );
-          $menuitems = wp_get_nav_menu_items( $menu->term_id, array( 'order' => 'DESC' ) );
-           foreach( $menuitems as $item ):
-             echo '<li><a href="' . $item->url . '">' . $item->title . '</a></li>';
-           endforeach;
-        ?>
-      </ul>
-    </nav>
-  </div>
-<!--
-<?php wp_nav_menu( array(
-    'menu'   => 'Menu 2017'
-  ));?> -->
-</header>
+
+<nav>
+<ul id="topNav">
+<li class="home"><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></li>
+  <?php wp_list_pages('title_li=&exclude=33,34,35,502,572,574,4425,4357,573,575,4288,4295,4298,4301,4293'); ?>
+</ul>
+</nav></header>

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-			
+
 
 		<?php if (have_posts()) : ?>
 
@@ -27,33 +27,33 @@
 			<h1>Blog Archives</h1>
 
 	<?php } ?>
-    
-    <section class="primary">	
+
+    <section class="primary">
 		<?php while (have_posts()) : the_post(); ?>
 
 		<div class="postContent">
 			<article id="post-<?php the_ID(); ?>">
-				
+
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 					<p class="author">Posted on <?php the_time('F jS, Y'); ?> by <?php the_author(); ?></p>
-				
-			
+
+
 					<?php the_excerpt(); ?>
 
-			
+
 					<p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> &bull; <?php edit_post_link('Edit', '', ' &bull; '); ?> <?php comments_popup_link('Read the full post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>
-				
+
                 <?php the_post_thumbnail( 'thumbnail' ); ?>
 			</article></div>
 
 			<?php endwhile; ?>
 	</section>
-		
-		
-	
+
+
+
 
 			<?php else : ?>
-<section class="primary">	
+<section class="primary">
 		<div class="postContent">
 			<article>
 				<h2>Not Found</h2>
@@ -63,7 +63,7 @@
 
 			<?php endif; ?>
 
-	
-<?php get_sidebar(); ?>
+
+<?php // get_sidebar(); ?>
 
 <?php get_footer(); ?>

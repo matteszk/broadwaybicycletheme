@@ -3,7 +3,7 @@
 Template Name: Stand Rentals
 */
 ?>
-<?php get_header('2017'); ?>
+<?php get_header(); ?>
 
 
 <div class="main-nav-spacer"></div>
@@ -58,4 +58,4 @@ Template Name: Stand Rentals
   </div>
 </section>
 
-<?php get_footer('2017'); ?>
+<?php get_footer(); ?>

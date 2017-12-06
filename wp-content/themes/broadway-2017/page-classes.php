@@ -3,7 +3,7 @@
 Template Name: Classes
 */
 ?>
-<?php get_header('2017'); ?>
+<?php get_header(); ?>
 
 <div class="main-nav-spacer">
 </div>
@@ -99,4 +99,4 @@ Template Name: Classes
 </section>
 <div class="col-xs-12 section-margin"></div>
 
-<?php get_footer('2017'); ?>
+<?php get_footer(); ?>

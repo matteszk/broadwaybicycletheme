@@ -12,14 +12,14 @@ Template Name: About
 
 	<section class="primary">
 		<div class="postContent">	<article id="post-<?php the_ID(); ?>">
-				
-					
-		
-				
-			
+
+
+
+
+
 					<?php the_content('Read more on "'.the_title('', '', false).'" &raquo;'); ?>
 
-			
+
 				<p>
 					<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				</p>
@@ -37,5 +37,5 @@ Template Name: About
 	<?php endif; ?>
 
 
-<?php get_sidebar(); ?>
+<?php // get_sidebar(); ?>
 <?php get_footer(); ?>

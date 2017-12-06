@@ -3,7 +3,7 @@
 Template Name: Homepage
 */
 ?>
-<?php get_header('2017'); ?>
+<?php get_header(); ?>
 
 
 <div class="main-nav-spacer"></div><!--[if IE]>
@@ -166,4 +166,4 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 </section>
 <div class="col-xs-12 section-margin"></div>
 
-<?php get_footer('2017'); ?>
+<?php get_footer(); ?>
