@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
 <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="alternate" type="text/xml" title="<?php bloginfo('name'); ?> RSS 0.92 Feed" href="<?php bloginfo('rss_url'); ?>">
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>">
@@ -17,8 +18,6 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 
 <script src="<?php bloginfo('template_url'); ?>/js/main-dist.js"></script>
-<!-- <script src="/js/cufon-yui.js" type="text/javascript"></script>
-<script src="/js/behaviors.js" type="text/javascript"></script> -->
 
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -35,11 +34,9 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="content">
-<header>
 
   <div class="main-nav">
     <div class="main-nav-bg"></div>
-    <button class="menu-toggle fa fa-window-close" id="main-nav-close"></button>
     <nav>
       <ul>
         <li><a class="accent-font" href="http://broadwaybicycleschool.com/homepage/">Broadway Bicycle</a></li>
@@ -54,8 +51,4 @@
       </ul>
     </nav>
   </div>
-<!--
-<?php wp_nav_menu( array(
-    'menu'   => 'Menu 2017'
-  ));?> -->
-</header>
+  <div class="menu-toggle fa fa-bars"></div>
