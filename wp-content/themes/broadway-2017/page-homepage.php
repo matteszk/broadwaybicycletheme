@@ -29,31 +29,29 @@ Template Name: Homepage
 <?php
 $args = array( 'post_type' => 'bulletin', 'post_status' => 'publish', 'posts_per_page' => 1 );
 $loop = new WP_Query( $args );
-while ( $loop->have_posts() ) : $loop->the_post(); ?>
-<aside class="row pt2 pb2 bulletin">
-	<div class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
-		<h1 class="h2"><?php echo the_title(); ?></h1>
-		<?php
-		$end =  strtotime(get_field('end'));
-		$endToday = strtotime('today midnight');
-		if( $end <= $endToday ) {
-			echo the_content();
-		}
-		?>
-	</div>
-</aside>
-<?php endwhile; wp_reset_query(); ?>
+while ( $loop->have_posts() ) :
+	$loop->the_post();
+	$endOfTodayTime = strtotime('today midnight');
+	if($endOfTodayTime <= strtotime(get_field('end'))) :
+	?>
+	<aside class="row pt2 pb2 bulletin">
+		<div class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
+			<h1 class="h2"><?php  the_title(); ?></h1>
+			<?php the_content();	?>
+		</div>
+	</aside>
+<?php endif; endwhile; wp_reset_query(); ?>
 
 
 <div class="row mt3 md-mt6">
-	<div class="col-xs-12 col-sm-10 col-md-6  col-lg-4 col-lg-offset-1 md-tr mb1 translate-pro gutter">
+	<div class="col-xs-12 col-sm-10 col-md-7 col-lg-4 col-lg-offset-1 md-tr mb1 translate-pro gutter">
 		<h2 class="h1 tilt-l">Professional <span class="h2"> Repairs, Builds, <nobr>& Tune–ups</nobr></span></h2>
 	</div>
 </div>
 <div class="row">
 	<div class="col-xs-12 col-sm-5 col-md-5">
 		<div class="cover image1 bg-center mt1 unveil" data-class="working-1"></div>
-		<div class="md-show cover image2 bg-center mt1 unveil" data-class="working-2"></div>
+		<div class="md-show cover image3 bg-center mt1 unveil" data-class="working-2"></div>
 	</div>
 	<div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 xs-mt1 gutter">
 		<p>At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! </p>
