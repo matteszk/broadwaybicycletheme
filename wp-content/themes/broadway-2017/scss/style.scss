@@ -368,6 +368,10 @@ blockquote p {
     padding-left: 2rem;
   }
 }
+
+.event-list-display:nth-of-type(1) {
+  margin-top: 0;
+}
 //xs only
 @media screen and (max-width: 41.9em) {
   .xs-only-tc {
@@ -390,6 +394,14 @@ blockquote p {
 }
 //sm
 @media (--sm-viewport) {
+  .event-list-display:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  .logo {
+    max-height: 400px;
+  }
+
   .sm-db {
     display: block;
   }
@@ -412,10 +424,6 @@ blockquote p {
 
   .sm-tc {
     text-align: center;
-  }
-
-  .logo {
-    max-height: 400px;
   }
 }
 //max md

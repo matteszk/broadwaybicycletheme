@@ -2,9 +2,9 @@
 
 <div class="row center-xs ">
 	<div class="col-xs-12 col-sm-10 col-md-8 gutter mt6">
-	<h1>Page</h1>
+	<h1><?php the_title(); ?></h1>
+
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 	<section class="primary">
 		<div class="postContent">
 			<article id="post-<?php the_ID(); ?>">
