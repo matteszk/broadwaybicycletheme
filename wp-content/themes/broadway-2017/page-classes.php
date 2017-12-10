@@ -7,7 +7,7 @@ Template Name: Classes
 
 <div class="main-nav-spacer">
 </div>
-<h1 class="h2 visually-hidden">Classes</h1>
+<h1 class="visually-hidden"><?php the_title(); ?></h1>
 <section class="relative">
   <div class="row ">
     <div class="col-xs-12 col-md-3 md-tr md-mb1 gutter">

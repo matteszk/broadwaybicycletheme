@@ -7,7 +7,7 @@ Template Name: Registration 2017
 
 <div class="main-nav-spacer">
 </div>
-<h1 class="h2 visually-hidden">Classes</h1>
+<h1 class="visually-hidden"><?php the_title(); ?></h1>
 <section class="relative">
   <div class="row center-xs">
     <div class="col-xs-12 col-sm-10 col-md-8 gutter">

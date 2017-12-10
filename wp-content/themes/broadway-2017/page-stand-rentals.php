@@ -7,7 +7,7 @@ Template Name: Stand Rentals
 
 
 <div class="main-nav-spacer"></div>
-<h1 class="visually-hidden">Stand Rental</h1>
+<h1 class="visually-hidden"><?php the_title(); ?></h1>
 <section class="relative">
   <div class="row">
     <div class="col-xs-12 col-md-5 col-md-offset-2 mb1 gutter">
