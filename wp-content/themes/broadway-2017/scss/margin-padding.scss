@@ -58,8 +58,14 @@
   margin-top: 6rem;
 }
 
+
 .ml1 {
   margin-left: 1rem;
+}
+
+
+.mb50 {
+  margin-bottom: 0.5rem;
 }
 
 .mb1 {
@@ -123,7 +129,16 @@
     margin-top: 2rem;
   }
 }
+// @media screen and (--sm-viewport) {
+// .sm-mt0 {
+// margin-top: 0;
+// }
+// }
 @media screen and (min-width: 60em) {
+  .md-mt0 {
+    margin-top: 0;
+  }
+
   .md-mt6 {
     margin-top: 6rem;
   }
@@ -136,4 +151,15 @@
   .lg-pr2 {
     margin-right: 2rem;
   }
+
+  .lg-mt0 {
+    margin-top: 0;
+  }
+}
+
+.first-of-type-mt0:first-of-type {
+  margin-top: 0;
+}
+.first-of-type-mt1:first-of-type {
+  margin-top: 1rem;
 }

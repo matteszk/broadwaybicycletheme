@@ -48,7 +48,7 @@ img {
 
 body {
   font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-sizxe: 18px;
   line-height: 1.6;
   color: $text;
   background-color: $background;
@@ -127,22 +127,35 @@ label {
   }
 }
 
+li {
+  list-style: none;
+}
+
 input {
-  padding: 0.5em 1em;
+  box-sizing: border-box;
+  padding: 1em;
   display: block;
   width: 100%;
   max-width: 380px;
 }
 
 input[type='submit'] {
-  cursor: pointer;
   width: auto;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
+label[for="s"] {
+  display: none;
+}
+
+input[type='submit'],
 .btn,
 .btn_event_form_submit,
 .sbi_follow_btn a,
 button {
+  cursor: pointer;
   font-family: 'plaza_d_otultra', Trebuchet MS, Verdana, Helvetica, sans-serif;
   font-size: 1.5rem;
   line-height: 1.1;
@@ -176,11 +189,18 @@ em {
   font-style: italic;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .list--indented {
   line-height: 2;
   margin-top: 0.25rem;
   padding-left: 2rem;
   list-style: circle;
+  li {
+    list-style-type: circle;
+  }
 }
 
 .social-links {
@@ -462,10 +482,6 @@ blockquote p {
     height: 32em;
   }
 
-  .sm-mt0 {
-    margin-top: 0;
-  }
-
   .sm-fr {
     float: right;
   }
@@ -610,10 +626,6 @@ blockquote p {
     text-align: right;
   }
 
-  .md-mt0 {
-    margin-top: 0;
-  }
-
   .md-image-tall {
     height: 32em;
   }
@@ -692,10 +704,6 @@ blockquote p {
 
   .lg-image3 {
     height: 12em;
-  }
-
-  .lg-mt0 {
-    margin-top: 0;
   }
 
   .bulletin {
