@@ -1,7 +1,9 @@
 <aside id="sideBar">
 	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-	<h4 class="mb1">Search the Site</h4>
-	<?php get_search_form(); ?>
+	<h4>Search the Site</h4>
+	<div class="mt50">
+		<?php get_search_form(); ?>
+	</div>
 	<div class="mt2">
 	<?php wp_list_categories('show_count=1&title_li=<h4 class="mb50">Categories</h4>'); ?>
 	</div>
