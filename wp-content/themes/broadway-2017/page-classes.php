@@ -10,7 +10,7 @@ Template Name: Classes
 <h1 class="h2 visually-hidden">Classes</h1>
 <section class="relative">
   <div class="row ">
-    <div class="col-xs-12 col-md-3 md-tr gutter">
+    <div class="col-xs-12 col-md-3 md-tr md-mb1 gutter">
       <h2 class="h1 tilt-l">Upcoming <span class="large-db">Classes</span></h2>
     </div>
     <div class="col-xs-12 col-md-9 gutter">

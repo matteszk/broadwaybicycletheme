@@ -393,13 +393,16 @@ blockquote p {
 .event-conf-block {
   text-align: left;
 }
+
 .espresso_confirm_registration {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+
 .event-conf-block td {
   padding-left: 1em;
 }
+
 #event-reg-form-groups > .section-heading,
 .event_description > .section-title {
   display: none;
@@ -480,6 +483,11 @@ blockquote p {
   .md-show {
     display: none;
   }
+
+  .md-mb1 {
+    margin-bottom: 1em;
+  }
+
   .main-nav-bg {
     position: fixed;
     width: 100vw;
