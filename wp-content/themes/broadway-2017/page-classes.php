@@ -15,15 +15,6 @@ Template Name: Classes
     </div>
     <div class="col-xs-12 col-md-9 gutter">
       <?php echo do_shortcode('[EVENT_LIST order_by=date(start_date),id]'); ?>
-      <!-- <div class="mt2 col-xs-12 col-sm-6 col-lg-4">
-        <h2 class="h2">Wheelbuilding</h2>
-        <ul>
-          <li>Mondays, June 26–July 24*</li>
-          <li>Price: $190.00</li>
-          <li>2 hour classes, 6:30–8:30pm.</li>
-          <li>Available Spaces: X</li>
-        </ul><a class="mt1 btn tilt" href="#">Register    </a>
-      </div> -->
     </div>
   </div>
 </section>

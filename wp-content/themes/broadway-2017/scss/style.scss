@@ -121,8 +121,22 @@ button {
   background: none;
 }
 
+label {
+  em {
+    color: red;
+  }
+}
+
+input {
+  padding: 0.5em 1em;
+  display: block;
+  width: 100%;
+  max-width: 380px;
+}
+
 input[type='submit'] {
   cursor: pointer;
+  width: auto;
 }
 
 .btn,
@@ -369,6 +383,41 @@ blockquote p {
   }
 }
 
+.facebook-button,
+.google-button,
+.twitter-share-button {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.event-conf-block {
+  text-align: left;
+}
+.espresso_confirm_registration {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.event-conf-block td {
+  padding-left: 1em;
+}
+#event-reg-form-groups > .section-heading,
+.event_description > .section-title {
+  display: none;
+}
+
+#event-reg-form-groups,
+.event_form_submit {
+  margin-top: 2rem;
+}
+
+.event_questions {
+  margin-top: 1rem;
+}
+
+.event_form_field {
+  margin-top: 1rem;
+}
+
 .event-list-display:nth-of-type(1) {
   margin-top: 0;
 }
@@ -431,7 +480,6 @@ blockquote p {
   .md-show {
     display: none;
   }
-
   .main-nav-bg {
     position: fixed;
     width: 100vw;

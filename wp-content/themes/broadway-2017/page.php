@@ -2,10 +2,10 @@
 
 <div class="row center-xs ">
 	<div class="col-xs-12 col-sm-10 col-md-8 gutter mt6">
-	<h1><?php the_title(); ?></h1>
+	<h1 class="h2"><?php the_title(); ?></h1>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	<section class="primary">
+	<section class="primary mt1">
 		<div class="postContent">
 			<article id="post-<?php the_ID(); ?>">
 				<?php the_content('Read more on "'.the_title('', '', false).'" &raquo;'); ?>
