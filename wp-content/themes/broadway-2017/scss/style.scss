@@ -210,6 +210,9 @@ em {
   }
 }
 
+.border-bottom {
+  border-bottom: 2px solid $primary; 
+}
 .cover {
   background-repeat: no-repeat;
   background-size: cover;

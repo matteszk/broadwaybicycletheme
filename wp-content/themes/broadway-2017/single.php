@@ -23,8 +23,8 @@
 					You can <a href="#respond">leave a response</a>, or <a href="<?php trackback_url(); ?>" rel="trackback">trackback</a> from your own site.
 				<?php } edit_post_link('Edit this entry','','.'); ?>
 		</p>
-		<nav>
-			<p><?php previous_post_link(); ?> &bull; <?php next_post_link(); ?></p>
+		<nav class="pt1 pb1">
+			<p><?php previous_post_link(); ?> <span class="fr"><?php next_post_link(); ?></span></p>
 		</nav>
 		<!-- AddThis Button BEGIN -->
 		<div class="addthis_toolbox addthis_default_style ">
