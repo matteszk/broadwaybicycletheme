@@ -28,12 +28,12 @@ Template Name: Homepage
 
 <?php
 $args = array( 'post_type' => 'bulletin', 'post_status' => 'publish', 'posts_per_page' => 1 );
-$loop = new WP_Query( $args );
-while ( $loop->have_posts() ) :
-	$loop->the_post();
-	$endOfTodayTime = strtotime('today midnight');
-	if($endOfTodayTime <= strtotime(get_field('end'))) :
-	?>
+$loop = new WP_Query($args);
+while ($loop->have_posts()) :
+    $loop->the_post();
+    $endOfTodayTime = strtotime('today midnight');
+    if ($endOfTodayTime <= strtotime(get_field('end'))) :
+    ?>
 	<aside class="row pt2 pb2 bulletin">
 		<div class="dark col-xs-12 col-md-8 col-md-offset-4 col-lg-5 col-lg-offset-5 gutter pl2-m pt2 pb2 tilt-r" style="text-align: left;">
 			<h1 class="h2"><?php  the_title(); ?></h1>
@@ -72,11 +72,21 @@ while ( $loop->have_posts() ) :
 	<div class="pr2 col-xs-12 col-sm-6 col-md-5 col-md-offset-2 col-lg-4 gutter xs-mt1">
 		<p>We love fixing bikes, and we’ve been sharing that love—and skills—in our classes for 30+ years. We host classes for all cyclists and the bikecurious, including classes and intentional spaces for FTW (femme, trans, women) bikers, such as our monthly <i>Grrrease Time</i>, an open shop and teaching time for FTW folks. Visit <a href="https://femmechanics.wordpress.com/">Boston's Femmechanics</a> website to learn more. </p>
 		<p>Class Descriptions</p>
-		<ul class="list--indented">
-			<li><a href="/classes.html#basic">Basic Class</a></li>
-			<li><a href="/classes.html#wheelbuilding">Wheelbuildling Class</a></li>
-			<li><a href="/classes.html#discbrake">Disc Brake Seminar</a></li>
-		</ul>
+
+		<?php $classes = get_field('class_descriptions', 4293);
+		if ($classes): ?>
+			<ul class="list--indented">
+			<?php foreach($classes as $class):
+				$name =  $class['name'];
+				$id =  str_replace(' ', '', $name); ?>
+				<li>
+					<a href="<?php echo get_page_link(4293) . '#' . $id; ?>">
+						<?php echo $name; ?>
+					</a>
+				</li>
+			<?php endforeach; ?>
+			</ul>
+		<?php endif; ?>
 		<p><a class="btn mt1 ml05 mb3" href="<?php echo get_page_link(4293) ?>">Upcoming Classes</a></p>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-5 pa0 first-xs last-sm">
@@ -115,7 +125,7 @@ while ( $loop->have_posts() ) :
 		<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 col-md-offset-2 gutter">
 			<p><span class="h3">Broadway supports,</span> partners with, sponsors, and donates to local organizations and events including:</p>
 			<ul class="list--indented gutter">
-				<?php if( have_rows('broadway_supports') ): while ( have_rows('broadway_supports') ) : the_row(); ?>
+				<?php if (have_rows('broadway_supports')): while (have_rows('broadway_supports')) : the_row(); ?>
 					<li><?php echo get_sub_field('item'); ?></li>
 				<?php endwhile; endif; ?>
 			</ul>
@@ -145,12 +155,12 @@ while ( $loop->have_posts() ) :
 	<div class="col-xs-12 col-md-8 col-lg-5 gutter">
 		<h2 class="h1"><span class="tilt-l">Latest News</span></h2>
 		<?php
-		$args = array(
-	    'posts_per_page' => 1,
-	    'post_type' => 'post'
-		);
-		$loop = new WP_Query( $args );
-		while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        $args = array(
+        'posts_per_page' => 1,
+        'post_type' => 'post'
+        );
+        $loop = new WP_Query($args);
+        while ($loop->have_posts()) : $loop->the_post(); ?>
 		<article>
 			<h1 class="h2"><?php echo the_title(); ?></h1>
 			<p class="footnote">Posted June 9th, 2017</p>
