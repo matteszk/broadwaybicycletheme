@@ -49,9 +49,9 @@ while ($loop->have_posts()) :
 	</div>
 </div>
 <div class="row">
-	<div class="col-xs-12 col-sm-5 col-md-5">
+	<div class="col-xs-12 col-sm-5 col-md-5 relative">
 		<div class="cover image1 bg-center mt1 unveil" data-class="working-1"></div>
-		<div class="md-show cover image3 bg-center mt1 unveil" data-class="working-2"></div>
+		<div class="md-show cover image1 mt1 unveil fr" style="max-width: 300px;" data-class="working-2"></div>
 	</div>
 	<div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 xs-mt1 gutter">
 		<p>At Broadway, we take pride in our quality repairs. We fix bicycles expertly, from minor repairs, flats, and adjustments to package deals such as tune-ups and overhauls. We love what we do, so you can be sure that we’ll fix your bike better than anyone. All of our repairs go through a full double safety check. We always test ride your bike before we give it the thumbs up to make sure your bike is safe and performing as it should! </p>
