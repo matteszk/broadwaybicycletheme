@@ -14,9 +14,12 @@ Template Name: Classes
     <div class="col-xs-12 col-md-3 md-tr md-mb1 gutter">
       <h2 class="h1 tilt-l">Upcoming <span class="large-db">Classes</span></h2>
     </div>
-    <div class="col-xs-12 col-md-9 gutter">
-      <?php echo do_shortcode('[EVENT_LIST order_by=date(start_date),id]'); ?>
+    <div class="col-xs-12 col-md-9 events">
+      <div class="row">
+        <?php echo do_shortcode('[ESPRESSO_EVENTS show_sold_out=false]'); ?>
+      </div>
     </div>
+
   </div>
 </section>
 <section class="row section-margin">
