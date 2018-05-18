@@ -51,4 +51,4 @@
       </ul>
     </nav>
   </div>
-  <div class="menu-toggle fa fa-bars"></div>
+  <button aria-label="menu" class="menu-toggle fa fa-bars"></button>

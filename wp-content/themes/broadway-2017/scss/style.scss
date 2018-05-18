@@ -97,8 +97,12 @@ td + td {
 
   a {
     color: $text-inverted;
+    border-bottom: 2px solid $text-inverted;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 
     &:hover {
+      border-bottom-color: $primary;
       color: $primary;
     }
   }
@@ -198,6 +202,7 @@ em {
   margin-top: 0.25rem;
   padding-left: 2rem;
   list-style: circle;
+
   li {
     list-style-type: circle;
   }
@@ -211,8 +216,9 @@ em {
 }
 
 .border-bottom {
-  border-bottom: 2px solid $primary; 
+  border-bottom: 2px solid $primary;
 }
+
 .cover {
   background-repeat: no-repeat;
   background-size: cover;
@@ -587,12 +593,15 @@ blockquote p {
   }
 
   .menu-toggle {
+    border: 0;
+    background: none;
     font-size: 36px;
     pointer-events: auto;
     position: fixed;
     z-index: 99;
     top: 1rem;
     right: 1rem;
+    border: 0;
     cursor: pointer;
   }
 
